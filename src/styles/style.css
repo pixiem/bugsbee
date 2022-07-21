@@ -63,11 +63,20 @@
 */
 /***
 
+
+
+
+
+
+
+
+
 ====================================================================
 2.	Reset
 ====================================================================
 
  ***/
+
 * {
   margin: 0px;
   padding: 0px;
@@ -77,7 +86,26 @@
   line-height: inherit;
   box-sizing: border-box;
 }
+.clearfix{
+justify-content: space-between;
+}
+#thm-logo{
+  width: 50%;
+  background-color: #222429;
+  border-radius: 50%;
+  padding: 10px;
+}
 
+@media (max-width: 992px) {
+
+  #thm-logo{
+    width: 100%;
+    background-color: #222429;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  
+}
 /***
 
 ====================================================================
@@ -605,7 +633,7 @@ img {
 .main-header .header-upper .logo-box {
   position: relative;
   float: left;
-  padding: 40px 0px;
+  padding: 17px 0px;
   margin-right: 50px;
   z-index: 7;
 }
@@ -618,8 +646,7 @@ img {
 .main-header .header-upper .logo-box .logo img {
   position: relative;
   display: inline-block;
-  max-width: 100%;
-  max-height: 34px;
+  
   z-index: 1;
 }
 
@@ -730,6 +757,7 @@ img {
   .boxed-wrapper .main-header .nav-outer .main-menu {
     margin-right: 70px;
   }
+  
 }
 
 .main-menu .navbar-collapse {

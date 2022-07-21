@@ -12,13 +12,7 @@ export const bannerTwo = [
     bg: "1.jpg",
     subtitle: "welcome to Linoor agency",
     title: "Smart Web\nDesign Agency",
-  },
-  {
-    id: 3,
-    bg: "2.jpg",
-    subtitle: "welcome to Linoor agency",
-    title: "Smart Web\nDesign Agency",
-  },
+  }
 ];
 
 export const bannerOne = {
@@ -44,24 +38,20 @@ export const bannerOne = {
   ],
   banners: bannerTwo,
   bannersTwo: [
-    {
-      id: 1,
-      bg: "image-1.jpg",
-      title: "Best Digital\nMarketing\nAgency",
-      text: "We are committed to providing our customers with exceptional service while offering our employees the best training.",
-    },
+   
     {
       id: 2,
       bg: "image-1.jpg",
-      title: "Best Digital\nMarketing\nAgency",
+      title: "Best Digital2\nMarketing\nAgency",
       text: "We are committed to providing our customers with exceptional service while offering our employees the best training.",
     },
     {
       id: 3,
       bg: "image-1.jpg",
-      title: "Best Digital\nMarketing\nAgency",
+      title: "Best Digital1\nMarketing\nAgency",
       text: "We are committed to providing our customers with exceptional service while offering our employees the best training.",
     },
+   
   ],
 };
 

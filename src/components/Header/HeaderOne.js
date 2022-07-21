@@ -88,9 +88,9 @@ const HeaderOne = ({
             }
           >
             <div className="logo-box">
-              <div className="logo">
+              <div className="logo d-flex">
                 <Link href="/">
-                  <a title={title}>
+                  <a style={{width:"20%"}} title={title}>
                     <Image
                       id="thm-logo"
                       src={Logo.src}
@@ -99,6 +99,7 @@ const HeaderOne = ({
                     />
                   </a>
                 </Link>
+                <h4 style={{marginLeft:"50px",fontWeight:"600"}}>Bugs Bee</h4>
               </div>
             </div>
             <div className="nav-outer clearfix">
@@ -131,21 +132,21 @@ const HeaderOne = ({
 
             {links && (
               <div className="other-links clearfix">
-                <div className="cart-btn">
+                {/* <div className="cart-btn">
                   <Link href="/cart">
                     <a className="theme-btn cart-toggler">
                       <span className="flaticon-shopping-cart"></span>
                     </a>
                   </Link>
-                </div>
+                </div> */}
                 <div className="search-btn">
-                  <button
+                  {/* <button
                     onClick={toggleSearch}
                     type="button"
                     className="theme-btn search-toggler"
                   >
                     <span className="flaticon-loupe"></span>
-                  </button>
+                  </button> */}
                 </div>
                 <div className="link-box">
                   <div className="call-us">

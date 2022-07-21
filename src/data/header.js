@@ -56,13 +56,23 @@ const navItemsTwo = [
 ];
 
 const navItems = [
-  home,
-  {
-    id: 2,
-    name: "About Us",
-    href: "/about"
-    
+  home,{
+    id: 4,
+    name: "Services",
+    href: "/services",
+    subNavItems: [
+      { id: 1, name: "All Services", href: "/services" },
+      { id: 8, name: "UI/UX Designing", href: "/ui-designing" },
+      { id: 3, name: "Website Development", href: "/web-development" },
+      { id: 7, name: "App Development", href: "/app-development" },
+      { id: 4, name: "Graphic Designing", href: "/graphic-designing" },
+     
+     
+
+     
+    ],
   },
+ 
   {
     id: 3,
     name: "Pages",
@@ -76,21 +86,7 @@ const navItems = [
      
     ],
   },
-  {
-    id: 4,
-    name: "Services",
-    href: "/services",
-    subNavItems: [
-      { id: 1, name: "All Services", href: "/services" },
-      { id: 2, name: "Services Two", href: "/services-2", isNew: true },
-      { id: 3, name: "Website Development", href: "/web-development" },
-      { id: 4, name: "Graphic Designing", href: "/graphic-designing" },
-      { id: 5, name: "Digital Marketing", href: "/digital-marketing" },
-      { id: 6, name: "SEO & Content Writing", href: "/seo" },
-      { id: 7, name: "App Development", href: "/app-development" },
-      { id: 8, name: "UI/UX Designing", href: "/ui-designing" },
-    ],
-  },
+  
   // {
   //   id: 5,
   //   name: "Portfolio",
@@ -124,6 +120,12 @@ const navItems = [
   //   ],
   // },
   {
+    id: 2,
+    name: "About Us",
+    href: "/about"
+    
+  },
+  {
     id: 8,
     name: "Contact",
     href: "/contact-2",
@@ -132,6 +134,7 @@ const navItems = [
     //   { id: 2, name: "Contact 02", href: "/contact-2", isNew: true },
     // ],
   },
+  
 ];
 
 export const socials = [
