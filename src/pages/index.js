@@ -35,10 +35,10 @@ const Home = () => {
     <WeWorkSection />
     <TestimonialsSectionTwo />
     <AboutSectionTwo />
-    <GallerySection carousel="project-carousel-two" className="alternate" />
-    <GetQuoteTwo />
-    <MapSection />
-    <SponsorsSectionTwo />
+    
+
+  
+ 
     <MainFooter />
   </Layout>
   );
