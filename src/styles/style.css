@@ -74,6 +74,13 @@
  width:50%;
  margin-top:10px
 }
+
+@media (max-width: 768px) {
+  #thm-logo{
+    width:70%;
+    margin-top:10px
+   }
+}
 * {
   margin: 0px;
   padding: 0px;
