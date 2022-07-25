@@ -38,7 +38,7 @@ class MyDocument extends Document {
           <link rel="icon" href="favicon.ico" />
           <meta
             name="description"
-            content="Linoor is a multipurpose and powerful Digital Services Agency NextJS Template. The template is highly suitable template for companies that offer web design, web development, internet services, digital marketing, SEO services and all other internet marketing and services related agencies and businesses."
+            content="Bugsbee is a multipurpose and powerful Digital Services Agency."
           />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
