@@ -21,7 +21,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <Layout pageTitle="Home 03">
+    <Layout pageTitle="">
     <Style />
     <HeaderOne headerStyle="header-style-two" logo={4} />
     <MobileMenu />
