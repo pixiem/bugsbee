@@ -88,9 +88,9 @@ const HeaderOne = ({
             }
           >
             <div className="logo-box">
-              <div className="logo d-flex">
+              <div className="logo">
                 <Link href="/">
-                  <a style={{width:"20%"}} title={title}>
+                  <a title={title}>
                     <Image
                       id="thm-logo"
                       src={Logo.src}
@@ -99,7 +99,6 @@ const HeaderOne = ({
                     />
                   </a>
                 </Link>
-                <h4 style={{marginLeft:"50px",fontWeight:"600"}}>Bugs Bee</h4>
               </div>
             </div>
             <div className="nav-outer clearfix">

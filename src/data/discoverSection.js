@@ -1,5 +1,5 @@
 const discoverSection = {
-  title: "Discover the world of best\nlinoor agency",
+  title: "Discover the world of Bugs Bee",
   discovers: [
     {
       id: 1,

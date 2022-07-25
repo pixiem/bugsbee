@@ -42,14 +42,14 @@ export const bannerOne = {
     {
       id: 2,
       bg: "image-1.jpg",
-      title: "Best Digital2\nMarketing\nAgency",
-      text: "We are committed to providing our customers with exceptional service while offering our employees the best training.",
+      title: "Your Partner For Innovations",
+      text: "Where technology meets business",
     },
     {
-      id: 3,
+      id: 2,
       bg: "image-1.jpg",
-      title: "Best Digital1\nMarketing\nAgency",
-      text: "We are committed to providing our customers with exceptional service while offering our employees the best training.",
+      title: "Your Partner For Innovations",
+      text: "Where technology meets business",
     },
    
   ],
