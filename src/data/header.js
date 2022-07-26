@@ -182,7 +182,7 @@ const headerData = {
   email: "needhelp@linoor.com",
   icon,
   socials,
-  text: "Linoor is a premium Template for Digital Agencies, Start Ups, Small Business and a wide range of other agencies.",
+  text: "",
 };
 
 export default headerData;

@@ -34,7 +34,7 @@ const FeaturesSectionTwo = () => {
             <Col lg={7} md={12} sm={12} className="right-col">
               <div className="inner">
                 <div className="image-box animated fadeInRight">
-                  <Image src={image.src} alt="" />
+                  <Image style={{width:"100%"}} src={image.src} alt="" />
                   <div className="cap-box">
                     <div className="cap-inner">
                       <h5>{title2}</h5>
