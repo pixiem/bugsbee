@@ -29,23 +29,23 @@ export default featuresSection;
 
 export const featuresSectionTwo = {
   image,
-  title: "Linoor all core features",
-  title2: "Total design freedom for everyone",
+  title: "Our Commitment  ",
+  title2: "Bugs Bee is right at your service",
   features: [
     {
       id: 1,
-      title: "Professional Staff",
-      text: "There are many variations of passages of lorem ipsum majority have suffered.",
+      title: "Quality designing",
+      text: "Quality is not our act, It's our habit.",
     },
     {
       id: 2,
-      title: "100% Satisfaction",
-      text: "There are many variations of passages of lorem ipsum majority have suffered.",
+      title: "Professional Staff ",
+      text: "Professionalism is the first thing that we don't compromise with.",
     },
     {
       id: 3,
-      title: "Quality designing",
-      text: "There are many variations of passages of lorem ipsum majority have suffered.",
+      title: "100% Satisfaction",
+      text: "Customer satisfaction is our primary concern.",
     },
   ],
 };

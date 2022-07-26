@@ -80,6 +80,9 @@
     width:70%;
     margin-top:10px
    }
+   #fLogo{
+    width:40% !important
+   }
 }
 * {
   margin: 0px;

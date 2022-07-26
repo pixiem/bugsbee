@@ -31,9 +31,12 @@ const Home = () => {
     <DiscoverSection />
     
     <ServicesSectionOne />
-    <FeaturesSectionTwo />
     <WeWorkSection />
-    <TestimonialsSectionTwo />
+    <FeaturesSectionTwo />
+    
+<br/>
+
+<br/>
     <AboutSectionTwo />
     
 

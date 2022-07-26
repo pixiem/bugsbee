@@ -31,10 +31,10 @@ export const aboutSectionOne = {
 export const aboutSectionTwo = {
   image: image3,
   title: "We are standout\nexperts in business",
-  text: "We believe that success is achieved through a highly collaborative interaction, so that we can work together to identify and evaluate opportunities beyond your current operations.",
+  text: "Today era is an era of technology & digitalization. Skiled workers & quality products are the tools of survival in this era. So, we never compromise with these two.",
   counters: [
-    { id: 1, percent: 90, title: "Quality\nServices" },
-    { id: 2, percent: 50, title: " Skilled\nEmployee" },
+    { id: 1, percent: 95, title: "Quality\nServices" },
+    { id: 2, percent: 90, title: " Skilled\nEmployee" },
   ],
   since: "2008",
 };

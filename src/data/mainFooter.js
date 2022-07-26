@@ -6,7 +6,7 @@ import logo7 from "@/images/update-01-10-2021/logo-7-light.png";
 import logo8 from "@/images/update-01-10-2021/logo-8-light.png";
 import logo5 from "@/images/update-09-06-2021/logo-5-light.png";
 
-export const footer = { year: new Date().getFullYear(), author: "Linoor" };
+export const footer = { year: new Date().getFullYear(), author: "Bugs Bee" };
 
 export const mainFooterDemo = {
   ...footer,
@@ -30,14 +30,14 @@ export const mainFooter = {
   about2: "The new corporate agency theme",
   about3:
     "We’ve grown our business on a set of \n three building blocks. Enjoy the \n people you work.",
-  text: "Welcome to our web design agency. Lorem ipsum simply free text dolor sited amet cons cing elit.",
-  address: "66 Broklyn Street, New York \n United States of America",
+  text: "Welcome to our digital agency. A digital agency that you can trust.",
+  address: "Sk Mjib Road, Chattogram \n Bangladesh",
   address3: "66 Mark Street, New Town DC 5752, Lo New York",
   address2:
     "214 Gold Street Round Road. 66 \n Code New York, United States \n of America",
-  phone: "666 888 000",
+  phone: "+880 1855779058",
   phone2: "+92 3333 222 000",
-  email: "needhelp@linoor.com",
+  email: "bugsbee@gmail.com",
   textBottom:
     "Sign up for our latest news & articles. We won’t give you spam mails.",
   subscribeText:

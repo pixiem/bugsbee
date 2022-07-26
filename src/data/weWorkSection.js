@@ -1,17 +1,17 @@
 export const weWorkSection = {
-  title: "We Work With industries",
+  title: "Our Working process",
   tabBtns: [
     {
       id: "tab-1",
-      title: "Latest technology",
+      title: "Share Your Idea",
     },
     {
       id: "tab-2",
-      title: "awesome support",
+      title: "We Build IT",
     },
     {
       id: "tab-3",
-      title: "1 click demo install",
+      title: "GET YOUR PRODUCT",
     },
   ],
   tabsContents: [
@@ -19,42 +19,41 @@ export const weWorkSection = {
       id: "tab-1",
       image: "featured-image-14.jpg",
       text1:
-        "There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "Your digital world is just one step away from you. Make up your mind about what you need & tell us the details. Bugs Bee is always hungry for your project.",
       text2:
-        "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+        "Please contact us via :",
       lists: [
-        "Self-contained, state-of-the-art time clock",
-        "Scalability of up to 500 employees per time clock",
-        "The ability to connect up to 32 time clocks",
-        "Employee self-enrollment",
+        "Phone : +8801855779058",
+        "Mail : bugsbee@gmail.com",
+        
       ],
     },
     {
       id: "tab-2",
       image: "featured-image-14.jpg",
       text1:
-        "There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "We got expert developers and designers to build just what you want. Our employess are relentless to satisfy your digital needs !.",
       text2:
-        "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+        "How we actually build your product ?.",
       lists: [
-        "Self-contained, state-of-the-art time clock",
-        "Scalability of up to 500 employees per time clock",
-        "The ability to connect up to 32 time clocks",
-        "Employee self-enrollment",
+        "Step 1 : Collect all the requirments and data from customer",
+        "Step 2 : Then we create a blueprint of how the project will go from start to finish",
+        "Step 3 : Then we share the project with our team of designers and developers.",
+        "Step 4 : After final quality check we deliver the product to the customer.",
       ],
     },
     {
       id: "tab-3",
       image: "featured-image-14.jpg",
       text1:
-        "There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "Once the project is finished & we've tested the ins and outs of your product. We deliver it to you right away. We also provide 3 months free service for our spacific services",
       text2:
-        "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+        "You can do these after taking the product.",
       lists: [
-        "Self-contained, state-of-the-art time clock",
-        "Scalability of up to 500 employees per time clock",
-        "The ability to connect up to 32 time clocks",
-        "Employee self-enrollment",
+        "Does the product match your requirements? Check it out.",
+        "Contact us immediately if you have any problems.",
+        "Be sure to take advantage of your 3 months of free maintenance",
+        
       ],
     },
   ],

@@ -35,7 +35,7 @@ const MainFooter = ({ normalPadding = true }) => {
                   <div className="logo">
                     <Link href="/">
                       <a>
-                        <Image id="fLogo" src={logo.src} alt="" />
+                        <Image style={{width:"70%",height:"70%"}} id="fLogo" src={logo.src} alt="" />
                       </a>
                     </Link>
                   </div>
@@ -55,9 +55,9 @@ const MainFooter = ({ normalPadding = true }) => {
             <Col xl={3} lg={6} md={6} sm={12} className="column">
               <div className="footer-widget links-widget">
                 <div className="widget-content">
-                  <h6>Explore</h6>
-                  <Row className="clearfix">
-                    <Col md={6} sm={12}>
+                  {/* <h6>Explore</h6> */}
+                  <Row className="clearfix justify-content-center">
+                    {/* <Col md={6} sm={12}>
                       <ul>
                         {links.slice(0, 5).map(({ id, href, title }) => (
                           <li key={id}>
@@ -65,8 +65,9 @@ const MainFooter = ({ normalPadding = true }) => {
                           </li>
                         ))}
                       </ul>
-                    </Col>
-                    <Col md={6} sm={12}>
+                    </Col> */}
+                    <Col md={8} sm={12}>
+                       <h6>Get Support</h6>
                       <ul>
                         {links.slice(5).map(({ id, href, title }) => (
                           <li key={id}>
@@ -79,7 +80,7 @@ const MainFooter = ({ normalPadding = true }) => {
                 </div>
               </div>
             </Col>
-            <Col xl={3} lg={6} md={6} sm={12} className="column">
+            <Col xl={3} lg={6} md={8} sm={12} className="column">
               <div className="footer-widget info-widget">
                 <div className="widget-content">
                   <h6>Contact</h6>
