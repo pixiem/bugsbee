@@ -62,10 +62,10 @@ const navItems = [
     href: "/services",
     subNavItems: [
       { id: 1, name: "All Services", href: "/services" },
-      { id: 8, name: "UI/UX Designing", href: "/ui-designing" },
-      { id: 3, name: "Website Development", href: "/web-development" },
-      { id: 7, name: "App Development", href: "/app-development" },
-      { id: 4, name: "Graphic Designing", href: "/graphic-designing" },
+      { id: 8, name: "Designing", href: "/ui-designing" },
+      { id: 3, name: "Development", href: "/web-development" },
+      { id: 7, name: "Digital Marketing", href: "/app-development" },
+      
      
      
 
@@ -73,19 +73,19 @@ const navItems = [
     ],
   },
  
-  {
-    id: 3,
-    name: "Pages",
-    href: "",
-    subNavItems: [
+  // {
+  //   id: 3,
+  //   name: "Pages",
+  //   href: "",
+  //   subNavItems: [
  
-      { id: 3, name: "How it Works", href: "/how-it-works" },
-      { id: 4, name: "Coming Soon", href: "/coming-soon" },
-      { id: 7, name: "FAQs", href: "/faqs" },
-      { id: 8, name: "Events", href: "/events" },
+  //     { id: 3, name: "How it Works", href: "/how-it-works" },
+  //     { id: 4, name: "Coming Soon", href: "/coming-soon" },
+  //     { id: 7, name: "FAQs", href: "/faqs" },
+  //     { id: 8, name: "Events", href: "/events" },
      
-    ],
-  },
+  //   ],
+  // },
   
   // {
   //   id: 5,

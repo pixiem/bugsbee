@@ -13,24 +13,24 @@ const agencySection = {
       id: "tab-2",
       text: "Our Vision",
     },
-    {
-      id: "tab-3",
-      text: "Our History",
-    },
+    // {
+    //   id: "tab-3",
+    //   text: "Our History",
+    // },
   ],
   tabContents: [
     {
       id: "tab-1",
-      text: "There are many variations of passages of avaialable but the majority have in some form, by injected humou or words which don't look even slightly believable. There are many variations of but the majority have suffered.",
+      text: "Bugs Bee is striving to make your digital life easier and flexible.",
     },
     {
       id: "tab-2",
-      text: "There are many variations of passages of avaialable but the majority have in some form, by injected humou or words which don't look even slightly believable. There are many variations of but the majority have suffered.",
+      text: "Our vision is to create a business world full of prosperity, meaning and connenction for all.",
     },
-    {
-      id: "tab-3",
-      text: "There are many variations of passages of avaialable but the majority have in some form, by injected humou or words which don't look even slightly believable. There are many variations of but the majority have suffered.",
-    },
+    // {
+    //   id: "tab-3",
+    //   text: "There are many variations of passages of avaialable but the majority have in some form, by injected humou or words which don't look even slightly believable. There are many variations of but the majority have suffered.",
+    // },
   ],
   textList: [
     "Nsectetur cing elit.",

@@ -17,7 +17,7 @@ export const weWorkSection = {
   tabsContents: [
     {
       id: "tab-1",
-      image: "featured-image-14.jpg",
+      image: "featured-image-14-1.jpg",
       text1:
         "Your digital world is just one step away from you. Make up your mind about what you need & tell us the details. Bugs Bee is always hungry for your project.",
       text2:
@@ -30,7 +30,7 @@ export const weWorkSection = {
     },
     {
       id: "tab-2",
-      image: "featured-image-14.jpg",
+      image: "featured-image-14-2.jpg",
       text1:
         "We got expert developers and designers to build just what you want. Our employess are relentless to satisfy your digital needs !.",
       text2:
@@ -44,7 +44,7 @@ export const weWorkSection = {
     },
     {
       id: "tab-3",
-      image: "featured-image-14.jpg",
+      image: "featured-image-14-3.jpg",
       text1:
         "Once the project is finished & we've tested the ins and outs of your product. We deliver it to you right away. We also provide 3 months free service for our spacific services",
       text2:

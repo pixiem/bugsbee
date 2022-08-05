@@ -25,7 +25,7 @@ export const aboutSectionOne = {
     "Entum estibulum dignissim posuere.",
     "If you are going to use a passage.",
   ],
-  since: "2008",
+  since: "2018",
 };
 
 export const aboutSectionTwo = {
@@ -36,7 +36,7 @@ export const aboutSectionTwo = {
     { id: 1, percent: 95, title: "Quality\nServices" },
     { id: 2, percent: 90, title: " Skilled\nEmployee" },
   ],
-  since: "2008",
+  since: "2018",
 };
 
 export const aboutSectionThree = {

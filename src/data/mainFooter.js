@@ -30,9 +30,9 @@ export const mainFooter = {
   about2: "The new corporate agency theme",
   about3:
     "We’ve grown our business on a set of \n three building blocks. Enjoy the \n people you work.",
-  text: "Welcome to our digital agency. A digital agency that you can trust.",
+  text: " A digital agency that you can trust.",
   address: "Sk Mjib Road, Chattogram \n Bangladesh",
-  address3: "66 Mark Street, New Town DC 5752, Lo New York",
+  address3: "Sk mujib road, Agrabad,Chattogram, Bangladesh",
   address2:
     "214 Gold Street Round Road. 66 \n Code New York, United States \n of America",
   phone: "+880 1855779058",

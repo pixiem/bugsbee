@@ -29,7 +29,7 @@ const MainFooter = ({ normalPadding = true }) => {
       <div className="auto-container">
         <div className="widgets-section">
           <Row className="clearfix">
-            <Col xl={3} lg={6} md={6} sm={12} className="column">
+            <Col xl={5} lg={6} md={6} sm={12} className="column">
               <div className="footer-widget logo-widget">
                 <div className="widget-content">
                   <div className="logo">
@@ -52,11 +52,11 @@ const MainFooter = ({ normalPadding = true }) => {
                 </div>
               </div>
             </Col>
-            <Col xl={3} lg={6} md={6} sm={12} className="column">
+            {/* <Col xl={3} lg={6} md={6} sm={12} className="column">
               <div className="footer-widget links-widget">
-                <div className="widget-content">
+                <div className="widget-content"> */}
                   {/* <h6>Explore</h6> */}
-                  <Row className="clearfix justify-content-center">
+                  {/* <Row className="clearfix justify-content-center"> */}
                     {/* <Col md={6} sm={12}>
                       <ul>
                         {links.slice(0, 5).map(({ id, href, title }) => (
@@ -66,7 +66,7 @@ const MainFooter = ({ normalPadding = true }) => {
                         ))}
                       </ul>
                     </Col> */}
-                    <Col md={8} sm={12}>
+                    {/* <Col md={8} sm={12}>
                        <h6>Get Support</h6>
                       <ul>
                         {links.slice(5).map(({ id, href, title }) => (
@@ -75,11 +75,11 @@ const MainFooter = ({ normalPadding = true }) => {
                           </li>
                         ))}
                       </ul>
-                    </Col>
-                  </Row>
+                    </Col> */}
+                  {/* </Row>
                 </div>
               </div>
-            </Col>
+            </Col> */}
             <Col xl={3} lg={6} md={8} sm={12} className="column">
               <div className="footer-widget info-widget">
                 <div className="widget-content">
@@ -89,10 +89,10 @@ const MainFooter = ({ normalPadding = true }) => {
                       <span className="icon flaticon-pin-1"></span>{" "}
                       <TextSplit text={address} />
                     </li>
-                    <li>
+                    {/* <li>
                       <span className="icon flaticon-call"></span>
                       <a href={`tel:${phone.split(" ").join("")}`}>{phone}</a>
-                    </li>
+                    </li> */}
                     <li>
                       <span className="icon flaticon-email-2"></span>
                       <a href={`mailto:${email}`}>{email}</a>
@@ -101,7 +101,7 @@ const MainFooter = ({ normalPadding = true }) => {
                 </div>
               </div>
             </Col>
-            <Col xl={3} lg={6} md={6} sm={12} className="column">
+            <Col xl={4} lg={6} md={6} sm={12} className="column">
               <div className="footer-widget newsletter-widget">
                 <div className="widget-content">
                   <h6>Newsletter</h6>

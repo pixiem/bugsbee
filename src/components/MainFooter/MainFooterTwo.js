@@ -82,7 +82,7 @@ const MainFooterTwo = () => {
                   <a href={`mailto:${email}`}>{email}</a>
                 </li>
                 <li className="address">
-                  <span className="icon flaticon-pin-1"></span> 66 Broklyn
+                  <span className="icon flaticon-pin-1"></span> Sk mujib road, Agrabad,Chattogram, Bangladesh
                   <TextSplit text={address} />
                 </li>
               </ul>

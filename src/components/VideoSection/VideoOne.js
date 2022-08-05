@@ -28,7 +28,7 @@ const VideoOne = () => {
           </div>
           <div className="video-one__content">
             <Row className="align-items-center">
-              <Col md={12} lg={4}>
+              <Col md={12} lg={12}>
                 <div className="sec-title">
                   <h2>
                     {title}
@@ -36,12 +36,12 @@ const VideoOne = () => {
                   </h2>
                 </div>
               </Col>
-              <Col md={12} lg={4}>
+              {/* <Col md={12} lg={4}>
                 <div className="block-text">{text1}</div>
               </Col>
               <Col md={12} lg={4}>
                 <div className="block-text">{text2}</div>
-              </Col>
+              </Col> */}
             </Row>
           </div>
         </div>

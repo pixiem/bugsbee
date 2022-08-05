@@ -6,7 +6,7 @@ const contactInfos = {
     "tuesday to friday: 8:00 am - 19:00 pm",
     "saturday: 8:00 am to 3:30 pm",
   ],
-  address: "66 broklyn street, new york \n 98 gold united states of \n america",
+  address: "Sk mujib road, Agrabad,Chattogram, Bangladesh",
   email: "needhelp@linoor.com",
   phone: "666 888 0000",
   ...footer,

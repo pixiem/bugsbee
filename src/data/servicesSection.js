@@ -1,28 +1,123 @@
 const services = [
-  {
-    id: 1,
-    icon: "flaticon-vector",
-    title: "Modern\nDesigning",
-    text: "Lorem ipsum is are many variations of pass of majority.",
-  },
+  
+    {
+      id: 1,
+      icon: "flaticon-monitor",
+      title: "Website\nDevelopment",
+      text: "Lorem ipsum is are many variations of pass of majority.",
+    },
   {
     id: 2,
     icon: "flaticon-digital",
-    title: "MARKETING\nSTRATEGY",
+    title: "App\nDevelopment",
     text: "Lorem ipsum is are many variations of pass of majority.",
   },
   {
     id: 3,
     icon: "flaticon-instant-camera",
-    title: "Digital\nProducts",
+    title: "Software\ndevelopment",
+    text: "Lorem ipsum is are many variations of pass of majority.",
+  },
+ 
+];
+const servicess = [
+  
+    {
+      id: 1,
+      icon: "flaticon-monitor",
+      title: "Ui/ Ux\nDesign",
+      text: "Lorem ipsum is are many variations of pass of majority.",
+    },
+  {
+    id: 2,
+    icon: "flaticon-digital",
+    title: "Responsive\nWeb Design",
     text: "Lorem ipsum is are many variations of pass of majority.",
   },
   {
-    id: 4,
-    icon: "flaticon-monitor",
-    title: "Website\nDevelopment",
+    id: 3,
+    icon: "flaticon-instant-camera",
+    title: "Graphics\nDesign",
     text: "Lorem ipsum is are many variations of pass of majority.",
   },
+  {
+    id: 3,
+    icon: "flaticon-instant-camera",
+    title: "Logo & Identity\nDesign",
+    text: "Lorem ipsum is are many variations of pass of majority.",
+  },
+  {
+    id: 3,
+    icon: "flaticon-instant-camera",
+    title: "Art & ilustration\nDesign",
+    text: "Lorem ipsum is are many variations of pass of majority.",
+  },
+  {
+    id: 3,
+    icon: "flaticon-instant-camera",
+    title: "Book & Magazine\nDesign",
+    text: "Lorem ipsum is are many variations of pass of majority.",
+  },
+  {
+    id: 3,
+    icon: "flaticon-instant-camera",
+    title: "Book & Magazine\nDesign",
+    text: "Lorem ipsum is are many variations of pass of majority.",
+  },
+ 
+];
+const servicesss = [
+  
+    {
+      id: 1,
+      icon: "flaticon-monitor",
+      title: "Search Engine Opti.. (SEO)",
+      title: "Search Engine Marketing (SEM)",
+      text: "Lorem ipsum is are many variations of pass of majority.",
+    },
+  {
+    id: 2,
+    icon: "flaticon-digital",
+    title: "Search Engine Marketing (SEM)",
+    text: "Lorem ipsum is are many variations of pass of majority.",
+  },
+  {
+    id: 3,
+    icon: "flaticon-instant-camera",
+    title: "Social Media\n Marketing",
+    text: "Lorem ipsum is are many variations of pass of majority.",
+  },
+  {
+    id: 3,
+    icon: "flaticon-instant-camera",
+    title: "Affiliate marketing",
+    text: "Lorem ipsum is are many variations of pass of majority.",
+  },
+  {
+    id: 3,
+    icon: "flaticon-instant-camera",
+    title: "email \nmarketing",
+    text: "Lorem ipsum is are many variations of pass of majority.",
+  },
+  {
+    id: 3,
+    icon: "flaticon-instant-camera",
+    title: "Quality Link Building",
+    text: "Lorem ipsum is are many variations of pass of majority.",
+  },
+  {
+    id: 3,
+    icon: "flaticon-instant-camera",
+    title: "Content Denerate & Opti..",
+    text: "Lorem ipsum is are many variations of pass of majority.",
+  },
+  {
+    id: 3,
+    icon: "flaticon-instant-camera",
+    title: "Local Specific Marketing",
+    text: "Lorem ipsum is are many variations of pass of majority.",
+  },
+ 
 ];
 
 const servicesSection = {
@@ -33,7 +128,7 @@ const servicesSection = {
 
 export const servicesSectionThree = {
   title: "What we’re offering",
-  services,
+  services,servicess,servicesss
 };
 
 export default servicesSection;
@@ -41,15 +136,15 @@ export default servicesSection;
 export const serviceSectionThree = [
   {
     id: 1,
-    icon: "flaticon-responsive",
+    icon: "flaticon-nayem",
     href: "/web-development",
-    title: "Website\nDevelopment",
+    title: "Designing",
   },
   {
     id: 2,
-    icon: "flaticon-computer",
+    icon: "fa-pen",
     href: "/graphic-designing",
-    title: "graphic\ndesigning",
+    title: "Development",
   },
   {
     id: 3,
@@ -57,30 +152,82 @@ export const serviceSectionThree = [
     href: "/digital-marketing",
     title: "digital\nmarketing",
   },
+  // {
+  //   id: 4,
+  //   icon: "flaticon-development",
+  //   href: "/seo",
+  //   title: "seo & content\nwriting",
+  // },
+  // {
+  //   id: 5,
+  //   icon: "flaticon-app-development",
+  //   href: "/app-development",
+  //   title: "App\nDevelopment",
+  // },
+  // {
+  //   id: 6,
+  //   icon: "flaticon-ui",
+  //   href: "/ui-designing",
+  //   title: "Ui/UX\ndesigning",
+  // },
+];
+export const serviceSectionThreeadv = [
+  {
+    id: 1,
+    icon: "flaticon-nayem",
+    href: "/web-development",
+    title: "Artificial \nintelligence",
+  },
+  {
+    id: 2,
+    icon: "fa-pen",
+    href: "/graphic-designing",
+    title: "Machine \nLearning",
+  },
+  {
+    id: 3,
+    icon: "flaticon-digital-marketing",
+    href: "/digital-marketing",
+    title: "Web 3\ndevelopment",
+  },
   {
     id: 4,
     icon: "flaticon-development",
     href: "/seo",
-    title: "seo & content\nwriting",
+    title: "cryptography",
   },
   {
     id: 5,
     icon: "flaticon-app-development",
     href: "/app-development",
-    title: "App\nDevelopment",
+    title: "blockchain \ntechnology",
   },
   {
     id: 6,
     icon: "flaticon-ui",
     href: "/ui-designing",
-    title: "Ui/UX\ndesigning",
+    title: "NFT (Non-fungible Token)",
+  },
+  {
+    id: 7,
+    icon: "flaticon-ui",
+    href: "/ui-designing",
+    title: "Metaverse \ndevelopment",
+  },
+  {
+    id: 6,
+    icon: "flaticon-ui",
+    href: "/ui-designing",
+    title: "Metaverse \ndevelopment",
+    title: "payment gateway \n integration",
   },
 ];
 
 export const servicesSectionOne = {
-  title: "We Shape the Perfect\nSolutions",
+  title: "We Shape the Perfect Solutions",
   text: "We are committed to providing our customers with exceptional service while offering our employees the best training.",
   services: serviceSectionThree,
+  advance: serviceSectionThreeadv
 };
 
 export const serviceSix = {

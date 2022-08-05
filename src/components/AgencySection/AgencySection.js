@@ -11,8 +11,8 @@ const AgencySection = () => {
   return (
     <section className="agency-section">
       <div className="auto-container">
-        <Row className="clearfix">
-          <Col xl={6} lg={12} md={12} sm={12} className="left-col">
+        <Row className="clearfix centered">
+          <Col xl={12} lg={12} md={12} sm={12} className="left-col">
             <div className="inner">
               <div className="sec-title">
                 <h2>
@@ -51,23 +51,7 @@ const AgencySection = () => {
               </div>
             </div>
           </Col>
-          <Col xl={6} lg={12} md={12} sm={12} className="right-col">
-            <div className="inner">
-              <div className="text">{text}</div>
-              <div className="featured-block-two clearfix">
-                <div className="image">
-                  <Image src={image.src} alt="" />
-                </div>
-                <div className="text">
-                  <ul>
-                    {textList.map((text, i) => (
-                      <li key={i}>{text}</li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </Col>
+        
         </Row>
       </div>
     </section>

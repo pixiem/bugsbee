@@ -20,9 +20,9 @@ const services = () => {
       <SearchPopup />
       <PageBanner title="Services" />
       <ServicesSectionThree className="padd-top" />
-     
-      <WeWorkSection />
       <CallToSectionTwo className="alternate" />
+      <WeWorkSection />
+  
       <MainFooter />
     </Layout>
   );

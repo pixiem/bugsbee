@@ -10,7 +10,7 @@ const CallToSectionTwo = ({
       <div className="auto-container">
         <div className="inner clearfix">
           <h2>
-          We are ready to bring your <br />&  ideas into reality
+          We are ready to bring <br />your ideas into reality
           </h2>
           <div className="link-box">
             <Link href="/contact">

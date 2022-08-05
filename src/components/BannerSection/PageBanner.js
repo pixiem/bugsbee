@@ -10,10 +10,10 @@ const PageBanner = ({
 }) => {
   return (
     <section className="page-banner">
-      <div
+      {/* <div
         className="image-layer"
         style={{ backgroundImage: `url(${bg.src})` }}
-      ></div>
+      ></div> */}
       <div className="shape-1"></div>
       <div className="shape-2"></div>
       <div className="banner-inner">

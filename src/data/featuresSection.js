@@ -53,13 +53,13 @@ export const featuresSectionTwo = {
 export const featureSix = {
   image: image2,
   imageCaption: "Total design freedom \n for everyone",
-  title: "Linoor place a very strong impact",
-  text: "There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form injected humour, or randomised words.",
+  title: "We make a difference",
+  text: "",
   items: [
-    "Self-contained, state-of-the-art time clock",
-    "Scalability of up to 500 employees per time clock",
-    "The ability to connect up to 32 time clocks",
-    "Employee self-enrollment",
+    "Organized Development",
+    "Efficient Products",
+    "Moneyback Guarantee",
+    "24/7 Support",
   ],
 };
 

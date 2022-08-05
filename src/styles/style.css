@@ -16350,8 +16350,7 @@ img.lazy-image.loaded {
 
 .video-one .video-one__image img {
   width: 100%;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+ 
   border-radius: 8px;
 }
 

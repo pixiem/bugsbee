@@ -4,7 +4,7 @@ import React from "react";
 import { Row } from "react-bootstrap";
 import SingleService from "./SingleService";
 
-const { title, services } = servicesSectionThree;
+const { title, services,servicess,servicesss } = servicesSectionThree;
 
 const ServicesSectionThree = ({ className = "" }) => {
   const ref = useActive("#services");
@@ -19,11 +19,41 @@ const ServicesSectionThree = ({ className = "" }) => {
         <div className="sec-title centered">
           <h2>
             {title} <span className="dot">.</span>
-          </h2>
+          </h2> 
+        </div>
+        
+        <div className="sec-title  text-left">
+          <h3>
+            Development 
+          </h3>
         </div>
         <div className="services">
           <Row className="clearfix">
             {services.map((service) => (
+              <SingleService service={service} key={service.id} />
+            ))}
+          </Row>
+        </div>
+        <div className="sec-title  text-left">
+          <h3>
+            Designing 
+          </h3>
+        </div>
+        <div className="services">
+          <Row className="clearfix">
+            {servicess.map((service) => (
+              <SingleService service={service} key={service.id} />
+            ))}
+          </Row>
+        </div>
+        <div className="sec-title  text-left">
+          <h3>
+            Digital Marketing 
+          </h3>
+        </div>
+        <div className="services">
+          <Row className="clearfix">
+            {servicesss.map((service) => (
               <SingleService service={service} key={service.id} />
             ))}
           </Row>

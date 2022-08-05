@@ -33,7 +33,7 @@ export default getQuote;
 export const getQuoteTwo = {
   title: "We are always here to help you",
   text: "There are many variatns of passages the majority have suffered alteration in some foor randomised words believable.",
-  address: "66 Broklyn Street, New York. USA",
+  address: "Sk mujib road, Agrabad,Chattogram, Bangladesh",
   email: "needhelp@linoor.com",
   phone: "666 888 000",
   inputs: [

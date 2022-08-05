@@ -64,8 +64,8 @@ export const contactSection = {
 };
 
 export const contactSectionTwo = {
-  title: "Write us any message",
-  text: "Lorem Ipsum is simply proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem is simply free text quis bibendum.",
+  title: "Write us a message",
+  text: "Your journey with us starts now!",
   socials: [
     "fab fa-twitter",
     "fab fa-facebook",
@@ -78,18 +78,18 @@ export const contactInfoTwo = [
   {
     id: 1,
     icon: "fa fa-map-marker-alt",
-    text: "66 Broklyn Street, USA",
+    text: "Chattogram, Bangladesh",
   },
   {
     id: 2,
     icon: "fa fa-envelope",
-    text: "needhelp@linoor.com",
+    text: "bugsbee@gmail.com",
     email: true,
   },
-  {
-    id: 3,
-    icon: "fa fa-phone",
-    text: "+92 666 888 0000",
-    phone: true,
-  },
+  // {
+  //   id: 3,
+  //   icon: "fa fa-phone",
+  //   // text: "+8801855779058",
+  //   phone: true,
+  // },
 ];

@@ -26,10 +26,11 @@ const About = () => {
       <MobileMenu />
       <SearchPopup />
       <PageBanner title="About" />
-      <DiscoverSection ShowTitle={false} />
+   
       <VideoOne />
+      <DiscoverSection ShowTitle={false} />
       <FeatureSix />
-      <FeatureSeven />
+      
       
       <CallToSectionTwo className="alternate" />
      

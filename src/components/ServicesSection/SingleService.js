@@ -9,9 +9,9 @@ const SingleService = ({ service = {} }) => {
     <Col xl={3} lg={6} md={6} sm={12} className="service-block-two">
       <div className="inner-box animated fadeInUp">
         <div className="bottom-curve"></div>
-        <div className="icon-box">
+        {/* <div className="icon-box">
           <span className={icon}></span>
-        </div>
+        </div> */}
         <h5>
           <a href="#">
             <TextSplit text={title} />
