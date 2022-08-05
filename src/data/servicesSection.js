@@ -225,7 +225,7 @@ export const serviceSectionThreeadv = [
 
 export const servicesSectionOne = {
   title: "We Shape the Perfect Solutions",
-  text: "We are committed to providing our customers with exceptional service while offering our employees the best training.",
+  text: "We are committed to providing our customers with exceptional services while offering our employees the best training.",
   services: serviceSectionThree,
   advance: serviceSectionThreeadv
 };
