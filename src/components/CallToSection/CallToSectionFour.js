@@ -9,7 +9,7 @@ const CallToSectionFour = () => {
         </h3>
         <a
           href="https://themeforest.net/item/linoor-digital-agency-services-html-template/27318759?s_rank=2"
-          target="_blank"
+          
           className="thm-btn__eight call-to-section-four__btn"
           rel="noreferrer"
         >

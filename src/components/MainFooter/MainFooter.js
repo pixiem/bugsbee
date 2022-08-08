@@ -43,7 +43,7 @@ const MainFooter = ({ normalPadding = true }) => {
                   <ul className="social-links clearfix">
                     {socials.map(({ id, icon, href }) => (
                       <li key={id}>
-                        <a target="_blank" href={href}>
+                        <a  href={href}>
                           <span className={icon}></span>
                         </a>
                       </li>
