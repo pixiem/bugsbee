@@ -45,23 +45,23 @@ export const mainFooter = {
   socials: [
     {
       id: 1,
-      href: "#",
+      href: "https://www.facebook.com/bugsbeeit",
       icon: "fab fa-facebook-square",
     },
     {
       id: 2,
-      href: "#",
-      icon: "fab fa-twitter",
+      href: "https://www.linkedin.com/company/bugsbee/",
+      icon: "fab fa-linkedin",
     },
     {
       id: 3,
-      href: "#",
+      href: "https://www.instagram.com/bugsbee.it/",
       icon: "fab fa-instagram",
     },
     {
       id: 4,
-      href: "#",
-      icon: "fab fa-pinterest-p",
+      href: "https://api.whatsapp.com/message/PKE6H2NHCQCLK1?autoload=1&app_absent=0",
+      icon: "fab fa-whatsapp",
     },
   ],
   links: [

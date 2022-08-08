@@ -6,7 +6,7 @@ const ContactInfoTwo = () => {
   return (
     <section className="contact-info-two">
       <div className="auto-container">
-        <Row>
+        <Row className="justify-content-center">
           {contactInfoTwo.map(({ id, icon, text, email, phone }) => (
             <Col key={id} md={12} lg={4}>
               <div className="contact-info-two__card animated fadeInUp">

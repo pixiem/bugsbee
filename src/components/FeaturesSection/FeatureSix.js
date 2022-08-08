@@ -11,7 +11,7 @@ const FeatureSix = () => {
         <Row className="no-gutters">
           <Col md={12} lg={12} xl={6}>
             <div className="feature-six__image clearfix">
-              <Image src={image.src} alt={imageCaption} />
+              <Image style={{width:"110%"}} src={image.src} alt={imageCaption} />
               <div className="feature-six__image__caption">{imageCaption}</div>
             </div>
           </Col>

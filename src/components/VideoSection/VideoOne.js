@@ -12,7 +12,7 @@ const VideoOne = () => {
     <>
       <div className="video-one">
         <div className="auto-container">
-          <div className="video-one__image">
+          {/* <div className="video-one__image">
             <Image
               src={image.src}
               alt="Linoor is trusted by millions of customers"
@@ -25,15 +25,17 @@ const VideoOne = () => {
                 </div>
               </a>
             </div>
-          </div>
+          </div> */}
           <div className="video-one__content">
             <Row className="align-items-center">
               <Col md={12} lg={12}>
                 <div className="sec-title">
-                  <h2>
+                 <center> <h2>
                     {title}
-                    <span className="dot">.</span>
-                  </h2>
+                  
+                  </h2></center>
+                  
+                  <h5 className="mt-5">Bugs Bee Ltd, a dedicated digital agency, is now among one of the leading ones currently operating globally. It offers a vast amount of digital products ensuring the use of up-to-date tools, optimized to be most efficient for its clients. From designing simple apps to creating whole robust Web Applications, rest assured, cause we got you covered! We have a bunch of specialized Programmers and IT Professionals improvised just to meet your needs!</h5>
                 </div>
               </Col>
               {/* <Col md={12} lg={4}>

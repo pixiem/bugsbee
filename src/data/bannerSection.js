@@ -17,23 +17,23 @@ export const bannerTwo = [
 
 export const bannerOne = {
   bg,
-  dayRange: "mon - fri",
-  timeRange: "9am - 7pm",
+  dayRange: "",
+  timeRange: "24/7   Always available",
   socials: [
     {
       id: 1,
-      href: "#",
-      title: "Twitter",
+      href: "https://www.instagram.com/bugsbee.it/",
+      title: "Instagram",
     },
     {
       id: 2,
-      href: "#",
-      title: "Facebook",
+      href: "https://www.linkedin.com/company/bugsbee/",
+      title: "Linkedin",
     },
     {
       id: 3,
-      href: "#",
-      title: "Youtube",
+      href: "https://www.facebook.com/bugsbeeit",
+      title: "Facebook",
     },
   ],
   banners: bannerTwo,

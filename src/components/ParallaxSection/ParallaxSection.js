@@ -12,9 +12,7 @@ const ParallaxSection = () => {
       <JarallaxImage src={bg.src} />
       <div className="auto-container">
         <div className="content-box">
-          <div className="icon-box">
-            <span className={icon}></span>
-          </div>
+          
           <h2>
             {title} <span>{title2}</span>
           </h2>

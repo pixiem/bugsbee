@@ -8897,7 +8897,7 @@ img.lazy-image.loaded {
   bottom: 0;
   right: 0;
   background-color: var(--thm-base);
-  padding: 40px;
+  padding: 20px;
   white-space: pre-line;
   text-transform: uppercase;
   line-height: 1;
@@ -8909,8 +8909,8 @@ img.lazy-image.loaded {
 
 @media (min-width: 992px) {
   .feature-six__image__caption {
-    font-size: 30px;
-    padding: 43px 60px;
+    /* font-size: 30px;
+    padding: 43px 60px; */
   }
 }
 
@@ -16333,13 +16333,13 @@ img.lazy-image.loaded {
 --------------------------------------------------------------*/
 .video-one {
   padding-top: 90px;
-  padding-bottom: 75px;
+
 }
 
 @media (min-width: 992px) {
   .video-one {
     padding-top: 120px;
-    padding-bottom: 105px;
+  
   }
 }
 

@@ -22,10 +22,11 @@ const ServicesSectionOne = () => {
               </div>
             </div>
           </Col>
+      
           {services.map((service) => (
             <SingleServiceOne key={service.id} service={service} />
           ))}
-        
+         <hr style={{backgroundColor:"#ffaa17",height:"5px",borderRadius:"20px"}}  />
           <Col xl={12} lg={12} md={12} sm={12} className="title-block my-5">
             <div className="inner ">
               <div className="sec-title">

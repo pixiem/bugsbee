@@ -18,6 +18,7 @@ const FeaturesSectionTwo = () => {
                     <span className="dot">.</span>
                   </h2>
                 </div>
+                <hr style={{height:"2px"}} />
                 <div className="features">
                   {features.map(({ id, title, text }) => (
                     <div key={id} className="feature">

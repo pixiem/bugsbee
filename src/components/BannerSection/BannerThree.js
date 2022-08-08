@@ -45,7 +45,7 @@ const BannerThree = () => {
             <ul className="clearfix">
               {socials.map(({ id, title, href }) => (
                 <li key={id}>
-                  <a href={href}>
+                  <a target="_blank" href={href}>
                     <span>{title}</span>
                   </a>
                 </li>

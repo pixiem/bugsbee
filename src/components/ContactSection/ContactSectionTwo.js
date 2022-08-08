@@ -1,10 +1,15 @@
 import { contactSectionTwo } from "@/data/contactSection";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-
+import { mainFooter } from "@/data/mainFooter";
 const { title, text, socials } = contactSectionTwo;
 
 const ContactSectionTwo = () => {
+  const {
+   
+    socials,
+   
+  } = mainFooter;
   const handleSubmit = (e) => {
     e.preventDefault();
     const formData = new FormData(e.target);
@@ -25,10 +30,9 @@ const ContactSectionTwo = () => {
                 </h2>
               </div>
               <p className="contact-two__text">{text}</p>
+              
               <div className="contact-two__social">
-                {socials.map((icon, i) => (
-                  <a key={i} href="#" className={icon}></a>
-                ))}
+            
               </div>
             </div>
           </Col>
