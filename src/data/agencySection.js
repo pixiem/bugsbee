@@ -25,7 +25,7 @@ const agencySection = {
     },
     {
       id: "tab-2",
-      text: "Our vision is to create a business world full of prosperity, meaning and connenction for all.",
+      text: "Bugs Bee is determined to create a business world full of prosperity, meaning and connenction for all.",
     },
     // {
     //   id: "tab-3",

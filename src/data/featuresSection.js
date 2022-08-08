@@ -29,7 +29,7 @@ export default featuresSection;
 
 export const featuresSectionTwo = {
   image,
-  title: "Our Commitment  ",
+  title: "Our Commitments  ",
   title2: "Bugs Bee is right at your service",
   features: [
     {
@@ -40,7 +40,7 @@ export const featuresSectionTwo = {
     {
       id: 2,
       title: "Professional Staff ",
-      text: "Professionalism is the first thing that we don't compromise with.",
+      text: "Professionalism is the first thing we don't compromise with.",
     },
     {
       id: 3,

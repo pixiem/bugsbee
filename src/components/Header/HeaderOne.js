@@ -155,7 +155,7 @@ const HeaderOne = ({
                     >
                       <span className="icon"></span>
                       <span className="sub-text ">Mail Us</span>
-                      <span className="number">bugsbee@gmail.com</span>
+                      <span className="number">bugsbeeit@gmail.com</span>
                     </a>
                   </div>
                 </div>

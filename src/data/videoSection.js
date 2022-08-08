@@ -18,7 +18,7 @@ export const videoSeven = {
 export const videoOne = {
   image,
   videoId: "y2Eqx6ys1hQ",
-  title: "Bugs Bee is just the agency that you can trust",
+  title: "Bugs Bee is just the agency you can trust",
   text1:
     "Lorem ipsum dolors sit amet elit magnis amet ultrices purusrfed aliquet. There are many variations of passages of available but the majority have suffered.",
   text2:

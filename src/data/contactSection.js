@@ -83,7 +83,7 @@ export const contactInfoTwo = [
   {
     id: 2,
     icon: "fa fa-envelope",
-    text: "bugsbee@gmail.com",
+    text: "bugsbeeit@gmail.com",
     email: true,
   },
   // {

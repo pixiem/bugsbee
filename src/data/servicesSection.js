@@ -136,13 +136,13 @@ export default servicesSection;
 export const serviceSectionThree = [
   {
     id: 1,
-    icon: "flaticon-nayem",
+    icon: "flaticon-design-tools",
     href: "/web-development",
     title: "Designing",
   },
   {
     id: 2,
-    icon: "fa-pen",
+    icon: "flaticon-desktop-1",
     href: "/graphic-designing",
     title: "Development",
   },
@@ -174,49 +174,49 @@ export const serviceSectionThree = [
 export const serviceSectionThreeadv = [
   {
     id: 1,
-    icon: "flaticon-nayem",
+    icon: "flaticon-development2",
     href: "/web-development",
     title: "Artificial \nintelligence",
   },
   {
     id: 2,
-    icon: "fa-pen",
+    icon: "flaticon-monitoring",
     href: "/graphic-designing",
     title: "Machine \nLearning",
   },
   {
     id: 3,
-    icon: "flaticon-digital-marketing",
+    icon: "flaticon-graphic-designer",
     href: "/digital-marketing",
     title: "Web 3\ndevelopment",
   },
   {
     id: 4,
-    icon: "flaticon-development",
+    icon: "flaticon-settings",
     href: "/seo",
     title: "cryptography",
   },
   {
     id: 5,
-    icon: "flaticon-app-development",
+    icon: "flaticon-network",
     href: "/app-development",
     title: "blockchain \ntechnology",
   },
   {
     id: 6,
-    icon: "flaticon-ui",
+    icon: "flaticon-satisfaction",
     href: "/ui-designing",
-    title: "NFT (Non-fungible Token)",
+    title: "NFT (Non-Fungible Token)",
   },
   {
     id: 7,
-    icon: "flaticon-ui",
+    icon: "flaticon-planning",
     href: "/ui-designing",
     title: "Metaverse \ndevelopment",
   },
   {
     id: 6,
-    icon: "flaticon-ui",
+    icon: "flaticon-research",
     href: "/ui-designing",
     title: "Metaverse \ndevelopment",
     title: "payment gateway \n integration",
@@ -224,8 +224,8 @@ export const serviceSectionThreeadv = [
 ];
 
 export const servicesSectionOne = {
-  title: "We Shape the Perfect Solutions",
-  text: "We are committed to providing our customers with exceptional services while offering our employees the best training.",
+  title: "OUR CORE SERVICES",
+  text: "We Shape the Perfect Solutions.", // & are committed to providing our clients with exceptional services while offering our employees the best training.
   services: serviceSectionThree,
   advance: serviceSectionThreeadv
 };

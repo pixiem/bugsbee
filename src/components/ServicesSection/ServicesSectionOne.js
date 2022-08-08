@@ -30,7 +30,7 @@ const ServicesSectionOne = () => {
             <div className="inner ">
               <div className="sec-title">
                 <h2 className="text-center">
-                  <TextSplit text="Some of our advance services" />
+                  <TextSplit text="Some of the advanced features we provide" />
                   <span className="dot">.</span>
                 </h2>
            
