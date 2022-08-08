@@ -35,7 +35,7 @@ export const getQuoteTwo = {
   text: "There are many variatns of passages the majority have suffered alteration in some foor randomised words believable.",
   address: "Sk mujib road, Agrabad,Chattogram, Bangladesh",
   email: "bugsbeeit@gmail.com",
-  phone: " 0",
+  phone: " ",
   inputs: [
     {
       type: "text",

@@ -28,7 +28,7 @@ const About = () => {
       <PageBanner title="About" />
    
       <VideoOne />
-      <TeamSectionTwo />
+      {/* <TeamSectionTwo /> */}
       <DiscoverSection ShowTitle={false} />
       <FeatureSix />
       
