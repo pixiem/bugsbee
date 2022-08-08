@@ -13,9 +13,9 @@ const SingleService = ({ service = {} }) => {
           <span className={icon}></span>
         </div> */}
         <h5>
-          <a href="#">
+          <span >
             <TextSplit text={title} />
-          </a>
+          </span>
         </h5>
         <div className="text">{text}</div>
         <div className="link-box">

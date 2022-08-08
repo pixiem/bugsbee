@@ -7481,12 +7481,13 @@ img.lazy-image.loaded {
 }
 
 .service-block-two .link-box {
-  position: absolute;
+  display: none;
+  /* position: absolute;
   right: 3px;
   bottom: 8px;
   width: 30px;
   height: 30px;
-  z-index: 1;
+  z-index: 1; */
 }
 
 .service-block-two .link-box a {

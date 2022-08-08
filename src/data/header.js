@@ -60,17 +60,17 @@ const navItems = [
     id: 4,
     name: "Services",
     href: "/services",
-    subNavItems: [
-      { id: 1, name: "All Services", href: "/services" },
-      { id: 8, name: "Designing", href: "/ui-designing" },
-      { id: 3, name: "Development", href: "/web-development" },
-      { id: 7, name: "Digital Marketing", href: "/app-development" },
+    // subNavItems: [
+    //   { id: 1, name: "All Services", href: "/services" },
+    //   { id: 8, name: "Designing", href: "/services" },
+    //   { id: 3, name: "Development", href: "/services" },
+    //   { id: 7, name: "Digital Marketing", href: "/services" },
       
      
      
 
      
-    ],
+    // ],
   },
  
   // {
