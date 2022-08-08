@@ -59,7 +59,7 @@ export const featureSix = {
     "Organized Development",
     "Efficient Products",
     "Moneyback Guarantee",
-    "24/7 Support",
+    "24/7 Support\n\n",
   ],
 };
 
