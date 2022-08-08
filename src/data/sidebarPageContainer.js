@@ -5,7 +5,7 @@ export const sidebar = {
   title: "All Services",
   title2: "need Linoor help?",
   text: "Prefer speaking with a human to filling out a form? call corporate office and we will connect you with a team member who can help.",
-  phone: "666 888 000",
+  phone: " 0",
   navItems: [
     {
       id: 1,

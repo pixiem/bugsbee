@@ -34,8 +34,8 @@ export const getQuoteTwo = {
   title: "We are always here to help you",
   text: "There are many variatns of passages the majority have suffered alteration in some foor randomised words believable.",
   address: "Sk mujib road, Agrabad,Chattogram, Bangladesh",
-  email: "needhelp@linoor.com",
-  phone: "666 888 000",
+  email: "bugsbeeit@gmail.com",
+  phone: " 0",
   inputs: [
     {
       type: "text",

@@ -7,8 +7,8 @@ const contactInfos = {
     "saturday: 8:00 am to 3:30 pm",
   ],
   address: "Sk mujib road, Agrabad,Chattogram, Bangladesh",
-  email: "needhelp@linoor.com",
-  phone: "666 888 0000",
+  email: "bugsbeeit@gmail.com",
+  phone: " 00",
   ...footer,
 };
 

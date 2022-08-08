@@ -58,7 +58,7 @@ export const eventsDetails = {
   title: "New Web design trends",
   time: "04:00am to 06:00pm",
   category: "Web Design",
-  phone: "92 666 888 0000",
+  phone: "92  00",
   email: "event@linoor.com",
   address: "8 Street, San Marcos \n London D29, UK",
   texts: [

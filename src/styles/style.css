@@ -3716,7 +3716,7 @@ img.lazy-image.loaded {
 }
 
 .services-section .row .service-block .inner-box:before {
-  content: "0" counter(slides-num) "";
+  content: "" counter(slides-num) "";
   position: absolute;
   left: 45px;
   top: 50px;
@@ -3727,6 +3727,7 @@ img.lazy-image.loaded {
   font-family: var(--thm-font);
   font-weight: 300;
 }
+
 
 .service-block {
   position: relative;

@@ -66,8 +66,8 @@ const servicesss = [
     {
       id: 1,
       icon: "flaticon-monitor",
-      title: "Search Engine Opti.. (SEO)",
-      title: "Search Engine Opti.. (SEO)",
+      title: "Search Engine Optimization \n (SEO)",
+     
       text: " ",
     },
   {
@@ -103,7 +103,7 @@ const servicesss = [
   {
     id: 3,
     icon: "flaticon-instant-camera",
-    title: "Content Generating & Optimization",
+    title: "Content Generating \n& Optimization",
     text: " ",
   },
   {
@@ -132,19 +132,19 @@ export const serviceSectionThree = [
   {
     id: 1,
     icon: "flaticon-design-tools",
-    href: "/web-development",
+    href: "/services",
     title: "Designing",
   },
   {
     id: 2,
     icon: "flaticon-desktop-1",
-    href: "/graphic-designing",
+    href: "/services",
     title: "Development",
   },
   {
     id: 3,
     icon: "flaticon-digital-marketing",
-    href: "/digital-marketing",
+    href: "/services",
     title: "digital\nmarketing",
   },
   // {
@@ -170,49 +170,49 @@ export const serviceSectionThreeadv = [
   {
     id: 1,
     icon: "flaticon-development2",
-    href: "/web-development",
+    href: "\services",
     title: "Artificial \nintelligence",
   },
   {
     id: 2,
     icon: "flaticon-monitoring",
-    href: "/graphic-designing",
+    href: "\services",
     title: "Machine \nLearning",
   },
   {
     id: 3,
     icon: "flaticon-graphic-designer",
-    href: "/digital-marketing",
+    href: "\services",
     title: "Web 3\ndevelopment",
   },
   {
     id: 4,
     icon: "flaticon-settings",
-    href: "/seo",
+    href: "\services",
     title: "cryptography",
   },
   {
     id: 5,
     icon: "flaticon-network",
-    href: "/app-development",
+    href: "\services",
     title: "blockchain \ntechnology",
   },
   {
     id: 6,
     icon: "flaticon-satisfaction",
-    href: "/ui-designing",
+    href: "\services",
     title: "NFT (Non-Fungible Token)",
   },
   {
     id: 7,
     icon: "flaticon-planning",
-    href: "/ui-designing",
+    href: "\services",
     title: "Metaverse \ndevelopment",
   },
   {
-    id: 6,
+    id: 8,
     icon: "flaticon-research",
-    href: "/ui-designing",
+    href: "\services",
     title: "Metaverse \ndevelopment",
     title: "payment gateway \n integration",
   },
