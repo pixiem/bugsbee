@@ -8,7 +8,7 @@ const contactInfos = {
   ],
   address: "Sk mujib road, Agrabad,Chattogram, Bangladesh",
   email: "bugsbeeit@gmail.com",
-  phone: " 00",
+  phone: " ",
   ...footer,
 };
 

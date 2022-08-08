@@ -141,22 +141,22 @@ export const socials = [
   {
     id: 1,
     icon: "fab fa-facebook-square",
-    href: "#",
+    href: "https://www.facebook.com/bugsbeeit",
   },
   {
     id: 2,
-    icon: "fab fa-twitter",
-    href: "#",
+    icon: "fab fa-linkedin",
+    href: "https://www.linkedin.com/company/bugsbee/",
   },
   {
     id: 3,
     icon: "fab fa-instagram",
-    href: "#",
+    href: "https://www.instagram.com/bugsbee.it/",
   },
   {
     id: 4,
-    icon: "fab fa-pinterest-p",
-    href: "#",
+    icon: "fab fa-whatsapp",
+    href: "https://api.whatsapp.com/message/PKE6H2NHCQCLK1?autoload=1&app_absent=0",
   },
 ];
 
