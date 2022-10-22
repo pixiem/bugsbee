@@ -1,5 +1,7 @@
 import { contactSectionTwo } from "@/data/contactSection";
 import React from "react";
+import emailjs from '@emailjs/browser';
+
 import { Col, Row } from "react-bootstrap";
 import { mainFooter } from "@/data/mainFooter";
 const { title, text, socials } = contactSectionTwo;
@@ -15,6 +17,14 @@ const ContactSectionTwo = () => {
     const formData = new FormData(e.target);
     const data = {};
     formData.forEach((value, name) => (data[name] = value));
+
+    emailjs.sendForm('Bugs-Bee-Notify', 'template_rtiz4in', e.target, 'Wqm5S27Jqbr4T_Fkz')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+e.target.reset()
     console.log(data);
   };
 
@@ -45,7 +55,7 @@ const ContactSectionTwo = () => {
                       <div className="field-inner">
                         <input
                           type="text"
-                          name="username"
+                          name="name"
                           placeholder="Your Name"
                           required
                         />
