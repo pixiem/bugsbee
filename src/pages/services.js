@@ -6,7 +6,6 @@ import Layout from "@/components/Layout/Layout";
 import MainFooter from "@/components/MainFooter/MainFooter";
 import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
-import ServicesSectionOne from "@/components/ServicesSection/ServicesSectionOne";
 import ServicesSectionThree from "@/components/ServicesSection/ServicesSectionThree";
 import WeWorkSection from "@/components/WeWorkSection/WeWorkSection";
 import React from "react";
@@ -22,7 +21,6 @@ const services = () => {
       <ServicesSectionThree className="padd-top" />
       <CallToSectionTwo className="alternate" />
       <WeWorkSection />
-  
       <MainFooter />
     </Layout>
   );
