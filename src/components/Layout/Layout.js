@@ -25,21 +25,21 @@ const Layout = ({
   return (
     <>
       <Head>
-      <meta property="og:url" content="www.bugsbee-it.com" />
-        <meta property="og:type" content="website" />
-        <meta property="fb:app_id" content="your fb app id" />
+      <meta property="og:url" content="https://i.ibb.co/w6YqVx1/Bugs-bee-Facebook-Cover-1.jpg" />
+        <meta property="og:type" content="https://i.ibb.co/w6YqVx1/Bugs-bee-Facebook-Cover-1.jpg" />
+        <meta property="fb:app_id" content="https://i.ibb.co/w6YqVx1/Bugs-bee-Facebook-Cover-1.jpg" />
         <meta
           property="og:title"
-          content="Social Media Preview Working?"
+          content="https://i.ibb.co/w6YqVx1/Bugs-bee-Facebook-Cover-1.jpg"
         />
-        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:card" content="https://i.ibb.co/w6YqVx1/Bugs-bee-Facebook-Cover-1.jpg" />
         <meta
           property="og:description"
-          content="Hurray!! Yes Social Media Preview is Working"
+          content="https://i.ibb.co/w6YqVx1/Bugs-bee-Facebook-Cover-1.jpg"
         />
-        <meta property="og:image" content={"https://i.ibb.co/w6YqVx1/Bugs-bee-Facebook-Cover-1.jpg"} />
+        <meta property="og:image" content="https://i.ibb.co/w6YqVx1/Bugs-bee-Facebook-Cover-1.jpg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Bugs Bee - Digital Agency {pageTitle}</title>
+        <title>Bugs Bee - Digital Agency </title>
       </Head>
       <Preloader className={preloaderClass} loading={loading} bg={preloader} />
       <main
