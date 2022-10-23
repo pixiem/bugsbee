@@ -37,7 +37,7 @@ const Layout = ({
           property="og:description"
           content="Hurray!! Yes Social Media Preview is Working"
         />
-        <meta property="og:image" content={"https://ibb.co/pXnTc9p"} />
+        <meta property="og:image" content={"https://i.ibb.co/w6YqVx1/Bugs-bee-Facebook-Cover-1.jpg"} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Bugs Bee - Digital Agency {pageTitle}</title>
       </Head>
