@@ -25,17 +25,17 @@ class MyDocument extends Document {
         <Head>
           <link
             rel="shortcut icon"
-            href="favicon.ico"
+            href="BUGS-02.jpg"
             id="fav-shortcut"
             type="image/x-icon"
           />
           <link
             rel="icon"
-            href="favicon.ico"
+            href="BUGS-02.jpg"
             id="fav-icon"
             type="image/x-icon"
           />
-          <link rel="icon" href="favicon.ico" />
+          <link rel="icon" href="BUGS-02.jpg" />
           <meta
             name="description"
             content="Bugsbee is a multipurpose and powerful Digital Services Agency."
