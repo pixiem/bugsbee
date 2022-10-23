@@ -128,7 +128,7 @@ const navItems = [
   {
     id: 8,
     name: "Contact",
-    href: "/contact-2",
+    href: "/contact",
     // subNavItems: [
     //   { id: 1, name: "Contact 01", href: "/contact" },
     //   { id: 2, name: "Contact 02", href: "/contact-2", isNew: true },

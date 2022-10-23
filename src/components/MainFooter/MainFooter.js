@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 import TextSplit from "../Reuseable/TextSplit";
-
+import emailjs from '@emailjs/browser';
 const {
   year,
   author,
@@ -22,6 +22,12 @@ const MainFooter = ({ normalPadding = true }) => {
     e.preventDefault();
     const formData = new FormData(e.target);
     console.log(formData.get("email"));
+    emailjs.sendForm('Bugs-Bee-Notify', 'template_rtiz4in', e.target, 'Wqm5S27Jqbr4T_Fkz')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
   };
 
   return (
