@@ -1,12 +1,14 @@
 import { contactSectionTwo } from "@/data/contactSection";
-import React from "react";
+import React, { useState } from "react";
 import emailjs from '@emailjs/browser';
 
 import { Col, Row } from "react-bootstrap";
 import { mainFooter } from "@/data/mainFooter";
+import Link from "next/link";
 const { title, text, socials } = contactSectionTwo;
 
 const ContactSectionTwo = () => {
+  const [ui, setUi] = useState(true);
   const {
    
     socials,
@@ -25,11 +27,12 @@ const ContactSectionTwo = () => {
         console.log(error.text);
     });
 e.target.reset()
+setUi(false)
     console.log(data);
   };
 
-  return (
-    <section className="contact-section contact-two">
+  return (<>
+    {ui && <section className="contact-section contact-two">
       <div className="auto-container">
         <Row>
           <Col lg={4}>
@@ -93,8 +96,27 @@ e.target.reset()
           </Col>
         </Row>
       </div>
-    </section>
-  );
+    </section>} 
+      {!ui && <section className="error-section">
+      <div className="auto-container">
+        <div className="content">
+          
+          <h2>YOUR MESSAGE HAS BEEN SENT</h2>
+          
+        
+          <div className="link-box">
+            <Link href="/">
+              <a className="theme-btn btn-style-one">
+                <i className="btn-curve"></i>
+                <span className="btn-title">Back to home</span>
+              </a>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </section>}
+    
+    </>);
 };
 
 export default ContactSectionTwo;
