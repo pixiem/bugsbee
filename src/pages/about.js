@@ -10,6 +10,7 @@ import MainFooter from "@/components/MainFooter/MainFooter";
 import ParallaxSection from "@/components/ParallaxSection/ParallaxSection";
 import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
+import TeamSectionTwo from "@/components/TeamSection/TeamSectionTwo";
 import VideoOne from "@/components/VideoSection/VideoOne";
 import React from "react";
 
@@ -23,7 +24,7 @@ const About = () => {
       <PageBanner title="About" />
    
       <VideoOne />
-      {/* <TeamSectionTwo /> */}
+      <TeamSectionTwo />
       <DiscoverSection ShowTitle={false} />
       <FeatureSix />
       

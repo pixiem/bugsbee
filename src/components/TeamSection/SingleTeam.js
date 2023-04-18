@@ -3,8 +3,9 @@ import React, { forwardRef } from "react";
 import { Image } from "react-bootstrap";
 
 const SingleTeam = ({ team = {}, className = "" }, ref) => {
-  const { image, name, designation, socials } = team;
+  const { image, name, designation,socials } = team;
 
+  
   return (
     <div ref={ref} className={`team-block ${className}`}>
       <div className="inner-box">

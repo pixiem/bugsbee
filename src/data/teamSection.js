@@ -2,23 +2,18 @@ const socials = [
   {
     id: 1,
     icon: "fab fa-facebook-square",
-    href: "#",
+    href: "https://www.facebook.com/naymul.ctg",
   },
   {
     id: 2,
-    icon: "fab fa-twitter",
-    href: "#",
+    icon: "fab fa-linkedin",
+    href: "www.linkedin.com/in/dev-naymul",
   },
   {
     id: 3,
     icon: "fab fa-instagram",
-    href: "#",
-  },
-  {
-    id: 4,
-    icon: "fab fa-pinterest-p",
-    href: "#",
-  },
+    href: "https://www.instagram.com/naymul_mist/",
+  }
 ];
 
 const teamSection = {
@@ -28,21 +23,21 @@ const teamSection = {
       id: 1,
       image: "team-1.jpg",
       name: "MD Naymul Islam",
-      designation: "Designer",
+      designation: "founder & Frontend Engineer",
+      socials,
+    },
+    {
+      id: 1,
+      image: "team-2.jpg",
+      name: "MD Naymul Islam",
+      designation: "Founder & Frontend Engineer",
       socials,
     },
     {
       id: 2,
-      image: "team-2.jpg",
-      name: "MD Naymul Islam",
-      designation: "CO Founder",
-      socials,
-    },
-    {
-      id: 3,
       image: "team-3.jpg",
-      name: "Mohammad Shagor Khan",
-      designation: "co founder",
+      name: "Mohammad Sohan Khan",
+      designation: "Co-Founder & CTO",
       socials,
     },
     // {

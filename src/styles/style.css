@@ -5293,10 +5293,10 @@ img.lazy-image.loaded {
 .team-block .image-box img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+  -moz-filter: grayscale(100%); */
+  /* filter: grayscale(100%); */
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   border-radius: 7px;
@@ -5323,6 +5323,11 @@ img.lazy-image.loaded {
 }
 
 .team-block .inner-box:hover .social-links {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+.team-block .inner-box .social-links {
   opacity: 1;
   -webkit-transform: translateY(0);
   transform: translateY(0);
