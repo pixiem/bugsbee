@@ -23,6 +23,20 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta property="og:url" content="https://www.bugsbee-it.com" />
+        {/* thumbnail And title for social media */}
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="E-Commerce By BUGS BEE" />
+        <meta
+          property="og:description"
+          content="Minimal, clean and Fast Bugs Bee's ecommerce website. Build Super store, Grocery delivery app, Multivendor store and niche market"
+        />
+
+
+
           <link
             rel="shortcut icon"
             href="BUGS-02.jpg"
@@ -36,11 +50,6 @@ class MyDocument extends Document {
             type="image/x-icon"
           />
           <link rel="icon" href="BUGS-02.jpg" />
-          <meta
-            name="description"
-            content="Bugsbee is a multipurpose and powerful Digital Services Agency."
-          />
-          <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
