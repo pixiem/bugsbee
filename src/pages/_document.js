@@ -29,10 +29,10 @@ class MyDocument extends Document {
         <meta property="og:url" content="https://www.bugsbee-it.com" />
         {/* thumbnail And title for social media */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="E-Commerce By BUGS BEE" />
+        <meta property="og:title" content="Transforming the Future: Explore Bugs Bee's Agency Services" />
         <meta
           property="og:description"
-          content="Minimal, clean and Fast Bugs Bee's ecommerce website. Build Super store, Grocery delivery app, Multivendor store and niche market"
+          content="Discover how our digital agency can help you achieve your online goals. From web design and development to digital marketing and SEO, we provide comprehensive solutions to elevate your online presence. Contact us today!"
         />
 
 
