@@ -17,19 +17,19 @@ const socials = [
 ];
 
 const teamSection = {
-  title: "Meet the founders",
+  title: "Our Leadership Team",
   teams: [
     {
       id: 1,
       image: "team-1.jpg",
-      name: "MD Naymul Islam",
+      name: "Naymul Islam",
       designation: "founder & Frontend Engineer",
       socials,
     },
     {
       id: 1,
       image: "team-2.jpg",
-      name: "MD Naymul Islam",
+      name: "Naymul Islam",
       designation: "Founder & Frontend Engineer",
       socials,
     },

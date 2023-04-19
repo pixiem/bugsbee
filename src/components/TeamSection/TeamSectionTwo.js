@@ -21,7 +21,7 @@ const TeamSectionTwo = () => {
               team={ {
                 id: 1,
                 image: "team-2.jpg",
-                name: "MD Naymul Islam",
+                name: "Naymul Islam",
                 designation: "Founder & Frontend Engineer",
                 socials: [
                   {
