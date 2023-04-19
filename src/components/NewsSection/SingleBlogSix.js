@@ -28,7 +28,7 @@ const SingleBlogSix = ({ blog = {} }) => {
             </a>
           </div>
           <h3 className="blog-six__title">
-            <Link href="/blog-single">{title}</Link>
+            <Link href="/aifuture">{title}</Link>
           </h3>
           <p className="blog-six__text">{text}</p>
         </div>

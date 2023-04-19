@@ -9,7 +9,7 @@ console.log(image)
     <Col lg={4} md={6} sm={12} className="news-block animated fadeInUp">
       <div className="inner-box">
         <div className="image-box">
-          <Link href="/blog-single">
+          <Link href="/aifuture">
             <a>
               <Image
                 src={require(`@/images/resource/${image}`).default.src}

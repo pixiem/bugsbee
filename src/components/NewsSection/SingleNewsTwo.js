@@ -18,16 +18,16 @@ const SingleNewsTwo = ({ news = {} }) => {
         <div className="news-two__content">
           <ul className="list-unstyled news-two__meta">
             <li>
-              <Link href="/blog-single">{date}</Link>
+              <Link href="/aifuture">{date}</Link>
             </li>
             <li>
-              <Link href="/blog-single">
+              <Link href="/aifuture">
                 <a>{comments} Comments</a>
               </Link>
             </li>
           </ul>
           <h3>
-            <Link href="/blog-single">{title}</Link>
+            <Link href="/aifuture">{title}</Link>
           </h3>
         </div>
       </div>

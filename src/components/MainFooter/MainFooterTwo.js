@@ -61,7 +61,7 @@ const MainFooterTwo = () => {
                     <div className="content">
                       <p>{date}</p>
                       <h4>
-                        <Link href="/blog-single">{title}</Link>
+                        <Link href="/aifuture">{title}</Link>
                       </h4>
                     </div>
                   </li>

@@ -32,7 +32,7 @@ const BlogDetails = () => {
       <div className="post-details">
         <div className="inner-box">
           <div className="image-box">
-            <Link href="/blog-single">
+            <Link href="/aifuture">
               <a>
                 <Image src={image.src} alt="" />
               </a>

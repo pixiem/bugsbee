@@ -18,7 +18,7 @@ const ContentSide = ({ handleOpen }) => {
               <span>“</span>
             </div>
             <div className="text">{text}</div>
-            <Link href="/blog-single">
+            <Link href="/aifuture">
               <a className="over-link"></a>
             </Link>
           </div>
@@ -30,9 +30,9 @@ const ContentSide = ({ handleOpen }) => {
               <span className="flaticon-link-2"></span>
             </div>
             <h4>
-              <Link href="/blog-single">{title}</Link>
+              <Link href="/aifuture">{title}</Link>
             </h4>
-            <Link href="/blog-single">
+            <Link href="/aifuture">
               <a className="over-link"></a>
             </Link>
           </div>

@@ -19,7 +19,7 @@ const BlogEightSingle = ({ blog = {} }) => {
         <div className="blog-eight__content">
           <div className="blog-eight__date">{date}</div>
           <h3 className="blog-eight__title">
-            <Link href="/blog-single">{title}</Link>
+            <Link href="/aifuture">{title}</Link>
           </h3>
           <p className="blog-eight__text">{text}</p>
           <div className="blog-eight__meta">
