@@ -27,7 +27,7 @@ const NewsSection = ({ className = "", showTitle = true, isMore = false }) => {
             <SingleNews key={news.id} news={news} />
           ))}
         </Row>
-        {isMore && (
+        {/* {isMore && (
           <div className="more-box">
             <Link href="/blog">
               <a className="theme-btn btn-style-one">
@@ -36,7 +36,7 @@ const NewsSection = ({ className = "", showTitle = true, isMore = false }) => {
               </a>
             </Link>
           </div>
-        )}
+        )} */}
       </div>
     </section>
   );

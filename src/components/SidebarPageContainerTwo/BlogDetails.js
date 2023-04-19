@@ -1,4 +1,4 @@
-import { blogDetails } from "@/data/sidebarPageContainerTwo";
+import { aifuture } from "@/data/sidebarPageContainerTwo";
 import Link from "next/link";
 import React, { Fragment } from "react";
 import { Col, Image, Row } from "react-bootstrap";
@@ -16,7 +16,7 @@ const {
   category,
   posts,
   inputs,
-} = blogDetails;
+} = aifuture;
 
 const BlogDetails = () => {
   const handleSubmit = (e) => {
@@ -95,15 +95,15 @@ const BlogDetails = () => {
           ))}
         </Row>
       </div>
-      <div className="comments-area">
+      {/* <div className="comments-area">
         <div className="comments-title">
           <h3>{comments.length} Comments</h3>
         </div>
         {comments.map((comment) => (
           <CommentBox key={comment.id} comment={comment} />
         ))}
-      </div>
-      <div className="leave-comments">
+      </div> */}
+      {/* <div className="leave-comments">
         <div className="comments-title">
           <h3>Leave a comment</h3>
         </div>
@@ -142,7 +142,7 @@ const BlogDetails = () => {
             </Row>
           </form>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

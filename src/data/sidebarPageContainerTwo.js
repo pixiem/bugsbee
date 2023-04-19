@@ -143,36 +143,36 @@ export const sidebar = {
   ],
 };
 
-export const blogDetails = {
+export const aifuture = {
   image,
-  date: "20 Mar",
-  admin: "Admin",
-  title: "basic rules of running web agency business",
+  date: "19 Apr",
+  admin: "Naymul Islam",
+  title: "The Future of Artificial Intelligence: Unlocking the Potential of Chat GPT and Beyond",
   text1:
-    "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+    "Artificial Intelligence (AI) has been rapidly evolving, transforming industries and shaping the way we live and work. In this forward-looking blog post, we will explore the future of AI, with a special focus on Chat GPT, a cutting-edge conversational AI technology, and its potential impact. We will start by discussing the current state of AI, including recent advancements in machine learning, natural language processing, and other areas that have fueled the rapid growth of Chat GPT. We will highlight the capabilities of Chat GPT, such as its ability to generate human-like text responses, engage in interactive conversations, and understand context, making it a powerful tool for various applications.",
   text2:
-    "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose injected humour and the like.",
-  tags: ["Business", "Agency", "Technology"],
-  category: ["Business", "Agency"],
+    "We will then delve into the potential applications of Chat GPT in the future, including its role in customer service, content creation, virtual assistants, language translation, and more. We will discuss how Chat GPT can enhance user experiences, streamline processes, and revolutionize industries such as e-commerce, healthcare, and education. Furthermore, we will explore the potential challenges and ethical considerations associated with the future of AI, including issues related to bias, privacy, and accountability. We will discuss the importance of responsible AI development and deployment, ensuring that the technology is used ethically and for the benefit of humanity. In addition to Chat GPT, we will also touch upon other emerging trends and technologies in AI, such as quantum computing, explainable AI, and edge computing, and their potential impact on the future of AI.",
+  tags: ["ArtificialIntelligence ", "ChatGPT ", "FutureTrends"],
+  category: ["Technology", "Future Trends"],
   posts: [
-    "A DEEP UNDERSTANDING OF OUR AUDIENCE",
-    "EXPERIENCES THAT CONNECT WITH PEOPLE",
+    "Unleashing the Future of AI: Chat GPT and Beyond",
+    "Shaping Tomorrow's World Today: Exploring Chat GPT & AI Potential",
   ],
   comments: [
-    {
-      id: 1,
-      image: "author-7.jpg",
-      name: "Jessica Brown",
-      date: "20 May, 2020 . 4:00 pm",
-      text: "Lorem Ipsum is simply dummy free text of the available printing and typesetting been the industry standard dummy text ever sincer condimentum purus.",
-    },
-    {
-      id: 2,
-      image: "author-8.jpg",
-      name: "David Martin",
-      date: "20 May, 2020 . 4:00 pm",
-      text: "Lorem Ipsum is simply dummy free text of the available printing and typesetting been the industry standard dummy text ever sincer condimentum purus.",
-    },
+    // {
+    //   id: 1,
+    //   image: "author-7.jpg",
+    //   name: "Jessica Brown",
+    //   date: "20 May, 2020 . 4:00 pm",
+    //   text: "Lorem Ipsum is simply dummy free text of the available printing and typesetting been the industry standard dummy text ever sincer condimentum purus.",
+    // },
+    // {
+    //   id: 2,
+    //   image: "author-8.jpg",
+    //   name: "David Martin",
+    //   date: "20 May, 2020 . 4:00 pm",
+    //   text: "Lorem Ipsum is simply dummy free text of the available printing and typesetting been the industry standard dummy text ever sincer condimentum purus.",
+    // },
   ],
   inputs: [
     {

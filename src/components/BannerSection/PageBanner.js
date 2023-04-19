@@ -1,6 +1,7 @@
 import bg from "@/images/background/image-7.jpg";
 import Link from "next/link";
 import React from "react";
+import { useRouter } from 'next/router'
 
 const PageBanner = ({
   title = "",
@@ -8,22 +9,25 @@ const PageBanner = ({
   parent = "",
   parentHref = "/",
 }) => {
+
+  const router = useRouter()
+  console.log(router.pathname)
   return (
     <section className="page-banner">
-      {/* <div
+     {router.pathname === "/techtalk" && <div
         className="image-layer"
         style={{ backgroundImage: `url(${bg.src})` }}
-      ></div> */}
-      <div className="shape-1"></div>
-      <div className="shape-2"></div>
+      ></div>}
+      <div className=""></div>
+      <div className=""></div>
       <div className="banner-inner">
         <div className="auto-container">
           <div className="inner-container clearfix">
-            <h1>{title}</h1>
-            <div className="page-nav">
+            {router.pathname != "/techtalk" && <h1>{title}</h1>}
+            {router.pathname != "/techtalk" && <div className="page-nav">
               <ul className="bread-crumb clearfix">
                 <li>
-                  <Link href="/index-main">Home</Link>
+                  <Link href="/">Home</Link>
                 </li>
                 {parent && (
                   <li>
@@ -32,7 +36,7 @@ const PageBanner = ({
                 )}
                 <li className="active">{page || title}</li>
               </ul>
-            </div>
+            </div>}
           </div>
         </div>
       </div>

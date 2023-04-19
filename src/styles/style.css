@@ -6105,11 +6105,11 @@ img.lazy-image.loaded {
 .news-block .image-box img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   filter: grayscale(100%);
-  -webkit-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease; */
   transition: all 500ms ease;
   border-radius: 7px;
 }
@@ -11019,10 +11019,10 @@ img.lazy-image.loaded {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  -webkit-filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+  filter: grayscale(100%); */
 }
 
 .page-banner .shape-1 {
@@ -11973,10 +11973,10 @@ img.lazy-image.loaded {
 .post-details .image-box img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+  filter: grayscale(100%); */
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   border-radius: 7px;

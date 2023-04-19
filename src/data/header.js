@@ -56,22 +56,22 @@ const navItemsTwo = [
 ];
 
 const navItems = [
-  home,{
-    id: 4,
-    name: "Services",
-    href: "/services",
-    // subNavItems: [
-    //   { id: 1, name: "All Services", href: "/services" },
-    //   { id: 8, name: "Designing", href: "/services" },
-    //   { id: 3, name: "Development", href: "/services" },
-    //   { id: 7, name: "Digital Marketing", href: "/services" },
+  // home,{
+  //   id: 4,
+  //   name: "Services",
+  //   href: "/services",
+  //   // subNavItems: [
+  //   //   { id: 1, name: "All Services", href: "/services" },
+  //   //   { id: 8, name: "Designing", href: "/services" },
+  //   //   { id: 3, name: "Development", href: "/services" },
+  //   //   { id: 7, name: "Digital Marketing", href: "/services" },
       
      
      
 
      
-    // ],
-  },
+  //   // ],
+  // },
  
   // {
   //   id: 3,
@@ -120,15 +120,34 @@ const navItems = [
   //   ],
   // },
   {
+    id: 1,
+    name: "Home",
+    href: "/",
+  },
+  {
     id: 2,
+    name: "Services",
+    href: "/services",
+  },
+  {
+    id: 3,
     name: "About Us",
     href: "/about"
     
   },
   {
-    id: 8,
+    id: 4,
     name: "Contact",
     href: "/contact",
+    // subNavItems: [
+    //   { id: 1, name: "Contact 01", href: "/contact" },
+    //   { id: 2, name: "Contact 02", href: "/contact-2", isNew: true },
+    // ],
+  },
+  {
+    id: 9,
+    name: "Tech Talk",
+    href: "/techtalk",
     // subNavItems: [
     //   { id: 1, name: "Contact 01", href: "/contact" },
     //   { id: 2, name: "Contact 02", href: "/contact-2", isNew: true },

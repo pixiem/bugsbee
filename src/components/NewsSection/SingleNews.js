@@ -4,7 +4,7 @@ import { Col, Image } from "react-bootstrap";
 
 const SingleNews = ({ news = {} }) => {
   const { image, date, admin, comments, title, text } = news;
-
+console.log(image)
   return (
     <Col lg={4} md={6} sm={12} className="news-block animated fadeInUp">
       <div className="inner-box">
@@ -37,7 +37,7 @@ const SingleNews = ({ news = {} }) => {
           </h5>
           <div className="text">{text}</div>
           <div className="link-box">
-            <Link href="/blog-single">
+            <Link href="/aifuture">
               <a className="theme-btn">
                 <span className="flaticon-next-1"></span>
               </a>
