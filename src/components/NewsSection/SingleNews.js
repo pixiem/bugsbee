@@ -33,7 +33,7 @@ console.log(image)
             </ul>
           </div>
           <h5>
-            <Link href="/blog-single">{title}</Link>
+            <Link href="/aifuture">{title}</Link>
           </h5>
           <div className="text">{text}</div>
           <div className="link-box">
