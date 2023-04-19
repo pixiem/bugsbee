@@ -12,9 +12,11 @@ import SearchPopup from "@/components/SearchPopup/SearchPopup";
 import ServicesSectionOne from "@/components/ServicesSection/ServicesSectionOne";
 import WeWorkSection from "@/components/WeWorkSection/WeWorkSection";
 import React from "react";
-
+import{ Analytics } from '@vercel/analytics/react';
 const Home = () => {
-  return (
+  return (<>
+  <Analytics/>
+ 
     <Layout pageTitle="">
     <Style />
     <HeaderOne headerStyle="header-style-two" logo={4} />
@@ -38,7 +40,7 @@ const Home = () => {
  
     <MainFooter />
   </Layout>
-  );
+   </>);
 };
 
 export default Home;
