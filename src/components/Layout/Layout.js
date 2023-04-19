@@ -21,7 +21,7 @@ const Layout = ({
 
     return () => clearTimeout(timeoutId);
   }, []);
-
+console.log(pageTitle)
   return (
     <>
       <Head>
@@ -38,8 +38,11 @@ const Layout = ({
           content="https://i.ibb.co/w6YqVx1/Bugs-bee-Facebook-Cover-1.jpg"
         /> */}
         {/* <meta property="og:image" content="https://i.ibb.co/w6YqVx1/Bugs-bee-Facebook-Cover-1.jpg" /> */}
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Bugs Bee" />
+        <meta property="og:description" content="Bugs Bee - Your Trusted Partner for Cutting-Edge Digital Solutions: Custom Websites, Mobile Apps, Software Development, and Results-Driven Growth"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Bugs Bee - Digital Agency </title>
+        <title>Bugs Bee - Software Company</title>
       </Head>
       <Preloader className={preloaderClass} loading={loading} bg={preloader} />
       <main

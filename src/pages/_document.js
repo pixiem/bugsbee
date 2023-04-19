@@ -24,15 +24,13 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta property="og:url" content="Bugs Bee" />
+        <meta property="og:url" content="https://www.bugsbee-it.com" />
         {/* thumbnail And title for social media */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Transforming the Future: Explore Bugs Bee's Agency Services" />
-        <meta
-          property="og:description"
-          content="Discover how our digital agency can help you achieve your online goals. From web design and development to digital marketing and SEO, we provide comprehensive solutions to elevate your online presence. Contact us today!"
+        <meta property="og:title" content="Bugs Bee" />
+        <meta property="og:description" content="Bugs Bee - Your Trusted Partner for Cutting-Edge Digital Solutions: Custom Websites, Mobile Apps, Software Development, and Results-Driven Growth"
         />
 
 
