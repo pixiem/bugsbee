@@ -146,8 +146,8 @@ const navItems = [
   },
   {
     id: 9,
-    name: "Tech Talk",
-    href: "/techtalk",
+    name: "Blog",
+    href: "/blog",
     // subNavItems: [
     //   { id: 1, name: "Contact 01", href: "/contact" },
     //   { id: 2, name: "Contact 02", href: "/contact-2", isNew: true },

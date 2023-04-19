@@ -14,7 +14,7 @@ const PageBanner = ({
   console.log(router.pathname)
   return (
     <section className="page-banner">
-     {router.pathname === "/techtalk" && <div
+     {router.pathname === "/blog" && <div
         className="image-layer"
         style={{ backgroundImage: `url(${bg.src})` }}
       ></div>}
@@ -23,8 +23,8 @@ const PageBanner = ({
       <div className="banner-inner">
         <div className="auto-container">
           <div className="inner-container clearfix">
-            {router.pathname != "/techtalk" && <h1>{title}</h1>}
-            {router.pathname != "/techtalk" && <div className="page-nav">
+            {router.pathname != "/blog" && <h1>{title}</h1>}
+            {router.pathname != "/blog" && <div className="page-nav">
               <ul className="bread-crumb clearfix">
                 <li>
                   <Link href="/">Home</Link>
