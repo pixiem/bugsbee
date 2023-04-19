@@ -26,7 +26,7 @@ class MyDocument extends Document {
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta property="og:url" content="https://www.bugsbee-it.com" />
+        <meta property="og:url" content="Bugs Bee" />
         {/* thumbnail And title for social media */}
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Transforming the Future: Explore Bugs Bee's Agency Services" />

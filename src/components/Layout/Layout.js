@@ -25,19 +25,19 @@ const Layout = ({
   return (
     <>
       <Head>
-      <meta property="og:url" content="https://i.ibb.co/w6YqVx1/Bugs-bee-Facebook-Cover-1.jpg" />
-        <meta property="og:type" content="https://i.ibb.co/w6YqVx1/Bugs-bee-Facebook-Cover-1.jpg" />
-        <meta property="fb:app_id" content="https://i.ibb.co/w6YqVx1/Bugs-bee-Facebook-Cover-1.jpg" />
-        <meta
+      {/* <meta property="og:url" content="https://i.ibb.co/w6YqVx1/Bugs-bee-Facebook-Cover-1.jpg" /> */}
+        {/* <meta property="og:type" content="https://i.ibb.co/w6YqVx1/Bugs-bee-Facebook-Cover-1.jpg" /> */}
+        {/* <meta property="fb:app_id" content="https://i.ibb.co/w6YqVx1/Bugs-bee-Facebook-Cover-1.jpg" /> */}
+        {/* <meta
           property="og:title"
           content="https://i.ibb.co/w6YqVx1/Bugs-bee-Facebook-Cover-1.jpg"
-        />
-        <meta name="twitter:card" content="https://i.ibb.co/w6YqVx1/Bugs-bee-Facebook-Cover-1.jpg" />
-        <meta
+        /> */}
+        {/* <meta name="twitter:card" content="https://i.ibb.co/w6YqVx1/Bugs-bee-Facebook-Cover-1.jpg" /> */}
+        {/* <meta
           property="og:description"
           content="https://i.ibb.co/w6YqVx1/Bugs-bee-Facebook-Cover-1.jpg"
-        />
-        <meta property="og:image" content="https://i.ibb.co/w6YqVx1/Bugs-bee-Facebook-Cover-1.jpg" />
+        /> */}
+        {/* <meta property="og:image" content="https://i.ibb.co/w6YqVx1/Bugs-bee-Facebook-Cover-1.jpg" /> */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Bugs Bee - Digital Agency </title>
       </Head>

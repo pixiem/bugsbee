@@ -4,7 +4,7 @@ import bg from "@/images/update-01-10-2021/background/under-construction-bg-1-1.
 export const underConstructionSection = {
   bg,
   logo,
-  logoTitle: "Bugs Bee - DIgital Agency ",
+  logoTitle: "Bugs Bee ",
   tagline: "Website is under construction",
   title: "we’re back in:",
   text: "Visit us on our social networks",
