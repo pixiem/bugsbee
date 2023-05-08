@@ -3,15 +3,15 @@ export const weWorkSection = {
   tabBtns: [
     {
       id: "tab-1",
-      title: "Share Your Idea",
+      title: "PLANNING",
     },
     {
       id: "tab-2",
-      title: "We Build IT",
+      title: "EXECUTION",
     },
     {
       id: "tab-3",
-      title: "GET YOUR PRODUCT",
+      title: "DELIVERY",
     },
   ],
   tabsContents: [
@@ -19,12 +19,12 @@ export const weWorkSection = {
       id: "tab-1",
       image: "featured-image-14-1.jpg",
       text1:
-        "Your digital world is just one step away from you. Make up your mind about what you need & share the details. Bugs Bee is always hungry for your project.",
-      text2:
-        "You can contact us via :",
+        "At the heart of every successful project is a plan that defines the scope and goals. We believe in taking a customer-centric approach to planning, which means:",
+
       lists: [
-        "Email : bugsbeeit@gmail.com",
-        "WhatsApp : +8801855779058",
+        "Understanding your needs: We take the time to understand your goals, requirements, and constraints so that we can develop a plan that meets your specific needs.",
+        "Defining the project scope: We work with you to determine the boundaries of the project and what is included and excluded, so that we can deliver a solution that meets your expectations.",
+        "Creating a roadmap: We develop a roadmap that outlines the tasks, timelines, and resources needed to complete the project, so that you know what to expect every step of the way."
         
       ],
     },
@@ -32,28 +32,25 @@ export const weWorkSection = {
       id: "tab-2",
       image: "featured-image-14-2.jpg",
       text1:
-        "We got expert developers and designers to build just what you want. Our employees are relentless to satisfy your digital needs !",
-      text2:
-        "How we actually build your product ?",
+        "Once the plan is in place, it's time to execute. We take a customer-centric approach to execution, which means:",
+
       lists: [
-        "Step 1 : Collect all the requirements and relevant data from a client",
-        "Step 2 : Then we determine what tools would be best-suited for this client's particular requirements",
-        "Step 3 : Then we create a blueprint of how the project should go from the beginning to end",
-        "Step 4 : Then we share the project with our teams of expert designers and developers",
-        "Step 5 : When the project is done & after final quality check, we deliver the product to our client",
+        "Building the solution: We implement the solution that was defined in the project plan, while keeping you informed and involved every step of the way.",
+        "Monitoring progress: We track progress against the project plan, identify and resolve issues, and manage changes, so that we can ensure a successful outcome.",
+        " Communicating progress: We provide regular updates to keep you informed about the project's status, so that you can have peace of mind knowing that everything is on track.",
       ],
     },
     {
       id: "tab-3",
       image: "featured-image-14-3.jpg",
       text1:
-        "Once the project is finished & we've tested the ins-and-outs of the product; we deliver it to you right away. We also provide for upto 6 months of free maintenance for our specific services.",
-      text2:
-        "You can ask yourself these after taking the product:",
+        "The final step in the workflow process is delivery. We take a customer-centric approach to delivery, which means:",
+      // text2:
+      //   "You can ask yourself these after taking the product:",
       lists: [
-        "Does the product match all your requirements & needs? Check it out.",
-        "Do you think any other functionalities should be added to make it better? If yes, then contact us immediately.",
-        "Are you really satisfied with our product? Send your feedback.",
+        "Testing and quality assurance: We conduct testing and quality assurance to ensure that the project meets your defined requirements, so that you can be confident in the final product.",
+        "Deployment: We deploy the project to the production environment, ensuring a smooth and seamless transition.",
+        "Post-project review: We conduct a post-project review to evaluate the project's success and identify areas for improvement, so that we can continue to improve our services and exceed your expectations.",
         
       ],
     },

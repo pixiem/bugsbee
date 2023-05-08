@@ -21,9 +21,9 @@ export const aboutSectionOne = {
   text2:
     "Lorem Ipsum is simply dummy text of free available in market the printing and typesetting industry has been the industry's standard dummy text ever.",
   textList: [
-    "Suspe ndisse suscipit sagittis leo.",
-    "Entum estibulum dignissim posuere.",
-    "If you are going to use a passage.",
+    "Native app development for iOS and Android platforms",
+    "Cross-platform app development using frameworks like React Native and Flutter",
+    "App maintenance and support to ensure your app stays up-to-date and running smoothly",
   ],
   since: "2018",
 };
@@ -45,9 +45,9 @@ export const aboutSectionThree = {
   subtitle: "welcome to business agency",
   text: "There are many variations of passages of available but the majority have suffered alteration in some form, by injected humou or randomised words which don look even slightly believable.",
   lists: [
-    "If you are going to use a passage",
-    "Lorem Ipsum is not simply random text",
-    "Making this the first true generator on the Internet",
+    "Native app development for iOS and Android platforms",
+    "Cross-platform app development using frameworks like React Native and Flutter",
+    "App maintenance and support to ensure your app stays up-to-date and running smoothly",
   ],
   barTitle: "Bussiness Success",
   barPercent: 70,
@@ -61,9 +61,9 @@ export const aboutSeven = {
   text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, simply free text by injected humour, or randomised.",
   title2: "Linoor is the largest digital marketing agency.",
   lists: [
-    "We’re professional and certified designers",
-    "We use quality material to make your walls awesome",
-    "We care about our customers satisfaction",
+    "Whether you need a desktop application, a web-based solution, or a mobile app, we've got you covered.",
+    "Expertise in a wide range of technologies and platforms.",
+    "enterprise software, database management systems, cloud-based solutions, and software integration.",
   ],
 };
 

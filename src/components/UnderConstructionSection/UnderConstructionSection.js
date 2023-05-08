@@ -10,10 +10,10 @@ const { bg, logo, logoTitle, tagline, title, text } = underConstructionSection;
 const UnderConstructionSection = () => {
   return (
     <section className="under-construction">
-      <div
+      {/* <div
         className="under-construction__bg"
         style={{ backgroundImage: `url(${bg.src})` }}
-      ></div>
+      ></div> */}
       <div className="auto-container text-center">
         <div className="logo">
           <Link href="/">
@@ -31,17 +31,17 @@ const UnderConstructionSection = () => {
         </div>
         <h3 className="under-construction__tagline">{tagline}</h3>
         <h2 className="under-construction__title">{title}</h2>
-        <CountdownOne
+        {/* <CountdownOne
           leadingZeros
           deadlineDate="dynamicHour"
           className="under-construction__countdown"
-        />
+        /> */}
         <p className="under-construction__text">{text}</p>
-        <div className="under-construction__social">
+        {/* <div className="under-construction__social">
           {socials.map(({ id, icon, href }) => (
             <a key={id} href={href} className={icon}></a>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

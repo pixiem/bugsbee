@@ -10,13 +10,13 @@ const CallToSectionTwo = ({
       <div className="auto-container">
         <div className="inner clearfix">
           <h2>
-          We are ready to bring <br />your ideas into reality
+          Talk to Our Specialists 
           </h2>
-          <div className="link-box">
+          <div style={{paddingTop:"0px !important"}} className="link-box">
             <Link href="/contact">
               <a className={`theme-btn ${btnClassName}`}>
                 <i className="btn-curve"></i>
-                <span className="btn-title">Contact with us</span>
+                <span style={{fontSize:"30px !important"}} className="btn-title">LET'S TALK</span>
               </a>
             </Link>
           </div>

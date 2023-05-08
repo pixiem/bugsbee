@@ -2,6 +2,7 @@ import { aboutSectionThree } from "@/data/aboutSection";
 import React, { useState } from "react";
 import { Col, Image, Row } from "react-bootstrap";
 import CountUp from "react-countup";
+import { Link } from "react-scroll";
 import ReactVisibilitySensor from "react-visibility-sensor";
 
 const {
@@ -28,19 +29,20 @@ const AboutSectionThree = () => {
     <section className="about-section-three">
       <div className="auto-container">
         <Row>
-          <Col md={12} lg={6}>
+        <Col md={12} lg={6}>
             <div className="about-section-three__image">
               <Image src={image.src} alt="" />
             </div>
           </Col>
-          <Col md={12} lg={6}>
-            <div className="about-section-three__content">
+        
+        <Col md={12} lg={6}>
+            <div style={{padding:'10px'}} className="">
               <div className="sec-title-two text-left">
-                <p>{subtitle}</p>
-                <h2>{title}</h2>
+                <p>Our App Development Services</p>
+                <h2>APP SOLUTION</h2>
               </div>
               <div className="about-section-three__summery">
-                <p>{text}</p>
+                <p>We specialize in developing custom mobile applications that drive business growth and enhance customer engagement, with a team of experienced developers and designers.</p>
               </div>
               <ul className="list-unstyled about-section-three__list">
                 {lists.map((text, i) => (
@@ -50,7 +52,7 @@ const AboutSectionThree = () => {
                   </li>
                 ))}
               </ul>
-              <div className="progress-box">
+              {/* <div className="progress-box">
                 <div className="bar-title">{barTitle}</div>
                 <ReactVisibilitySensor
                   offset={{ top: 10 }}
@@ -78,14 +80,20 @@ const AboutSectionThree = () => {
                     </div>
                   </div>
                 </ReactVisibilitySensor>
+              </div> */}
+              <div className="">
+                {/* <Image src={personImage.src} alt="" /> */}
+                
+                <div className="link-box">
+                <Link href="/web-development">
+                <a className="about-seven__btn thm-btn__six">Discover More</a>
+              </Link>
               </div>
-              <div className="about-section-three__name">
-                <Image src={personImage.src} alt="" />
-                <h3>{name}</h3>
-                <p>{tagline}</p>
+             
               </div>
             </div>
           </Col>
+        
         </Row>
       </div>
     </section>

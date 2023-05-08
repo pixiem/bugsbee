@@ -22,15 +22,16 @@ const SlideItemThree = ({ slide = {} }, ref) => {
         <div className="content-box">
           <div className="content">
             <div className="inner">
-              <h1>
-                <TextSplit text={title} />
+              <h1 style={{color:"#222429"}}>
+              Your Partner For Innovations
+                {/* <TextSplit text="Your Partner For Innovations" /> */}
               </h1>
-              <div className="text">{text}</div>
+              <div className="text"> <h5>Unlock the power of technology with our <b> <u>Faster</u> + <u>Affordable</u> + <u>Premium</u> </b> IT services for your business needs.</h5></div>
               <div className="link-box">
                 <Link href="/about">
                   <a className="theme-btn btn-style-two">
                     <i className="btn-curve"></i>
-                    <span className="btn-title">Discover More</span>
+                    <span className="btn-title">LET'S TALK</span>
                   </a>
                 </Link>
               </div>

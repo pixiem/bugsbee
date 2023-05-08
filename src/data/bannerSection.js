@@ -18,7 +18,7 @@ export const bannerTwo = [
 export const bannerOne = {
   bg,
   dayRange: "",
-  timeRange: "24/7   Always available",
+  timeRange: "24/7    available",
   socials: [
     {
       id: 1,
@@ -43,13 +43,13 @@ export const bannerOne = {
       id: 2,
       bg: "image-1.jpg",
       title: "Your Partner For Innovations",
-      text: "Where technology meets business",
+      text: "Unlock the power of technology with our fast, affordable, and top-quality IT services for your business needs.",
     },
     {
       id: 2,
       bg: "image-1.jpg",
       title: "Your Partner For Innovations",
-      text: "Where technology meets business",
+      text: "Unlock the power of technology with our fast, affordable, and top-quality IT services for your business needs.",
     },
    
   ],

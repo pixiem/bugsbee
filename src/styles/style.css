@@ -173,7 +173,7 @@ h6 {
 }
 
 h1 {
-  font-size: 140px;
+  font-size: 100px !important;
 }
 
 h2 {
@@ -2754,8 +2754,21 @@ img.lazy-image.loaded {
   -webkit-transition-delay: 1300ms;
   transition-delay: 1300ms;
 }
+.banner-carousel .tns-slide-active .content-box h2 {
+  opacity: 1;
+  -webkit-transform: translate(0);
+  transform: translate(0);
+  -webkit-transition: all 1000ms ease;
+  transition: all 1000ms ease;
+  -webkit-transition-delay: 1300ms;
+  transition-delay: 1300ms;
+}
 
 .banner-three .banner-carousel .tns-slide-active .content-box h1 {
+  -webkit-transition-delay: 700ms;
+  transition-delay: 700ms;
+}
+.banner-three .banner-carousel .tns-slide-active .content-box h2 {
   -webkit-transition-delay: 700ms;
   transition-delay: 700ms;
 }
@@ -2821,10 +2834,10 @@ img.lazy-image.loaded {
   background-size: cover;
   background-position: left top;
   border-radius: 50%;
-  -webkit-filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+  filter: grayscale(100%); */
   z-index: 2;
   opacity: 0;
   -webkit-transform: translateX(100%);
@@ -2836,7 +2849,7 @@ img.lazy-image.loaded {
   content: "";
   position: absolute;
   opacity: 0.5;
-  background-color: var(--thm-black);
+  /* background-color: var(--thm-black); */
   top: 0;
   left: 0;
   right: 0;
@@ -11060,7 +11073,7 @@ img.lazy-image.loaded {
   padding: 240px 0px 120px;
 }
 
-.page-banner h1 {
+.page-banner h1, h2 {
   position: relative;
   font-size: 100px;
   color: #ffffff;
@@ -13794,6 +13807,9 @@ img.lazy-image.loaded {
   overflow: hidden;
   border-radius: 8px;
   margin-bottom: 30px;
+}
+.portfolio-details-info {
+background-color: orange;
 }
 
 .portfolio-details-info__image img {
@@ -18555,7 +18571,7 @@ img.lazy-image.loaded {
 /* about seven */
 .about-seven {
   padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-bottom: 120px; */
 }
 
 .about-seven__images {

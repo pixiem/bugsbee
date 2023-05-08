@@ -1,9 +1,13 @@
+import AboutSection from "@/components/AboutSection/AboutSection";
+import AboutSeven from "@/components/AboutSection/AboutSeven";
+import Appsolutionsection from "@/components/AboutSection/Appsolutionsection";
 import PageBanner from "@/components/BannerSection/PageBanner";
 import CallToSectionTwo from "@/components/CallToSection/CallToSectionTwo";
 import HeaderOne from "@/components/Header/HeaderOne";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
 import MainFooter from "@/components/MainFooter/MainFooter";
+import PartnerOne from "@/components/PartnerSection/PartnerOne";
 import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
 import ServicesSectionThree from "@/components/ServicesSection/ServicesSectionThree";
@@ -31,7 +35,12 @@ const services = () => {
       <MobileMenu />
       <SearchPopup />
       <PageBanner title="Services" />
-      <ServicesSectionThree className="padd-top" />
+      {/* <ServicesSectionThree className="padd-top" /> */}
+      <AboutSection />
+      <AboutSeven />
+      <Appsolutionsection/>
+      <PartnerOne />
+      {/* <AboutSection /> */}
       <CallToSectionTwo className="alternate" />
       <WeWorkSection />
       <MainFooter />
