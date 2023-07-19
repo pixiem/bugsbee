@@ -40,7 +40,7 @@ const Home = () => {
     <div className="auto-container">
     <div className="sec-title centered">
           <h2 style={{fontSize:"5.5rem !important ", color:"#EF6D45"}}>
-            Let's Talk
+            Lets Talk
             <span className="dot">.</span>
           </h2>
           <hr style={{border:"3px solid #EF6D45",opacity:"100", height:"7px", color:"#EF6D45"}} />
