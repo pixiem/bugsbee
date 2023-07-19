@@ -15,14 +15,13 @@ import "tiny-slider/dist/tiny-slider.css";
 import "@/styles/style.css";
 import "@/styles/hover.css";
 import "@/styles/responsive.css";
-import UnderConstruction from "./under-construction";
 
 const MyApp = ({ Component, pageProps }) => {
   return (
-    <UnderConstruction/>
-    // <ContextProvider>
-    //   <Component {...pageProps} />
-    // </ContextProvider>
+   
+    <ContextProvider>
+      <Component {...pageProps} />
+    </ContextProvider>
   );
 };
 

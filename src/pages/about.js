@@ -36,7 +36,7 @@ const About = () => {
       <SearchPopup />
       <PageBanner title="About" />
       <VideoOne />
-      <TeamSectionTwo />
+      {/* <TeamSectionTwo /> */}
       {/* <DiscoverSection ShowTitle={this} /> */}
       <FeatureSix />
       <CallToSectionTwo className="alternate" />
