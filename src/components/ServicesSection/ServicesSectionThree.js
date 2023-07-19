@@ -78,7 +78,7 @@ const ServicesSectionThree = ({ className = "" }) => {
                 <div className="my-auto">
                   <div style={{marginBottom:"10px"}} className="portfolio-details-info__content">
                     <h3 style={{color:"#222429"}} className="portfolio-details-info__title">Web Solution</h3>
-                    <p style={{color:"#222429"}} className="portfolio-details-info__text">A web solutions provider for an agency's website services page should include several key features to ensure the page is effective and user-friendly. One of the most important features is a Content Management System (CMS), which allows the agency to easily create, manage, and publish content on the website. This can be particularly important for an agency website services page, which may need to be updated frequently to reflect changes in the services offered.</p>
+                    <p style={{color:"#222429"}} className="portfolio-details-info__text">A web solutions provider for an agencys website services page should include several key features to ensure the page is effective and user-friendly. One of the most important features is a Content Management System (CMS), which allows the agency to easily create, manage, and publish content on the website. This can be particularly important for an agency website services page, which may need to be updated frequently to reflect changes in the services offered.</p>
 
                     <div className="demo-features__wrapper">
                       <div  style={{margin:"8px"}} className="demo-features__box">

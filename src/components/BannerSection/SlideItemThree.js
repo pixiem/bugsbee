@@ -30,7 +30,7 @@ const SlideItemThree = ({ slide = {} }, ref) => {
                 <Link href="/about">
                   <a className="theme-btn btn-style-two">
                     <i className="btn-curve"></i>
-                    <span className="btn-title">LET'S TALK</span>
+                    <span className="btn-title">LETS TALK</span>
                   </a>
                 </Link>
               </div>

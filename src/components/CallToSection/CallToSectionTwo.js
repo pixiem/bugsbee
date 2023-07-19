@@ -16,7 +16,7 @@ const CallToSectionTwo = ({
             <Link href="/contact">
               <a className={`theme-btn ${btnClassName}`}>
                 <i className="btn-curve"></i>
-                <span style={{fontSize:"30px !important"}} className="btn-title">LET'S TALK</span>
+                <span style={{fontSize:"30px !important"}} className="btn-title">LETS TALK</span>
               </a>
             </Link>
           </div>
