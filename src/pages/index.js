@@ -13,7 +13,6 @@ import ServicesSectionOne from "@/components/ServicesSection/ServicesSectionOne"
 import WeWorkSection from "@/components/WeWorkSection/WeWorkSection";
 import React from "react";
 import{ Analytics } from '@vercel/analytics/react';
-import ContactSectionTwo from "@/components/ContactSection/ContactSectionTwo";
 import { Col, Row } from "react-bootstrap";
 const Home = () => {
   return (<>

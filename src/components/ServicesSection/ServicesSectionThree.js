@@ -2,7 +2,6 @@ import { servicesSectionThree } from "@/data/servicesSection";
 import useActive from "@/hooks/useActive";
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
-import { portfolioDetailsInfo } from "@/data/portfolioDetails";
 import TextSplit from "../Reuseable/TextSplit";
 import { Link } from "react-scroll";
 const { title, services, servicess, servicesss } = servicesSectionThree;

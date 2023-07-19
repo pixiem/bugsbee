@@ -32,7 +32,7 @@ const Appsolutionsection = () => {
                   <TextSplit text="APP SOLUTION" />
                   <span className="dot">.</span>
                 </h2>
-                <div className="lower-text">"We specialize in developing custom mobile applications that drive business growth and enhance customer engagement, with a team of experienced developers and designers."</div>
+                <div className="lower-text">We specialize in developing custom mobile applications that drive business growth and enhance customer engagement, with a team of experienced developers and designers.</div>
               </div>
               {/* <div className="text">
                 <p>We build web applications that are tailored to your specific business needs, using the latest technologies and frameworks.We create websites that are optimized for all devices and screen sizes, providing a seamless user experience for your customers.We can help you set up an online store that is optimized for sales and conversions, with features like easy-to-use shopping carts and secure payment gateways.</p>

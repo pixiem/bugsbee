@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React, { forwardRef } from "react";
-import TextSplit from "../Reuseable/TextSplit";
 
 const SlideItemThree = ({ slide = {} }, ref) => {
   const { bg, title, text } = slide;
