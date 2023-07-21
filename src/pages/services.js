@@ -38,7 +38,7 @@ const services = () => {
       {/* <ServicesSectionThree className="padd-top" /> */}
       <AboutSection />
       <AboutSeven />
-      <Appsolutionsection/>
+      {/* <Appsolutionsection/> */}
       <PartnerOne />
       {/* <AboutSection /> */}
       <CallToSectionTwo className="alternate" />

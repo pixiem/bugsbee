@@ -19,10 +19,10 @@ import UnderConstruction from "./under-construction";
 
 const MyApp = ({ Component, pageProps }) => {
   return (
-   <UnderConstruction/>
-    // <ContextProvider>
-    //   <Component {...pageProps} />
-    // </ContextProvider>
+
+    <ContextProvider>
+      <Component {...pageProps} />
+    </ContextProvider>
   );
 };
 
