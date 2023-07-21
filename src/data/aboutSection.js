@@ -55,7 +55,7 @@ export const aboutSectionThree = {
 };
 
 export const aboutSeven = {
-  images: [image6, image7],
+  images: [image6],
   tagline: "About Company",
   title: "We provide the best business services",
   text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, simply free text by injected humour, or randomised.",
