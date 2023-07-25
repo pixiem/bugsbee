@@ -60,7 +60,7 @@ export const mainFooter = {
     },
     {
       id: 4,
-      href: "https://api.whatsapp.com/message/PKE6H2NHCQCLK1?autoload=1&app_absent=0",
+      href: "https://wa.me/qr/7F7V4NEZUSLCF1",
       icon: "fab fa-whatsapp",
     },
   ],

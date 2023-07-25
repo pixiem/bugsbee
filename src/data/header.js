@@ -175,7 +175,7 @@ export const socials = [
   {
     id: 4,
     icon: "fab fa-whatsapp",
-    href: "https://api.whatsapp.com/message/PKE6H2NHCQCLK1?autoload=1&app_absent=0",
+    href: "https://wa.me/qr/7F7V4NEZUSLCF1",
   },
 ];
 
