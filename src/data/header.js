@@ -126,17 +126,26 @@ const navItems = [
   },
   {
     id: 2,
+    name: "Products",
+    href: "",
+    subNavItems: [
+      { id: 1, name: "Academy Management System", href: "/academy",isNew: true  },
+      { id: 2, name: "Turf Management System", href: "/turf", },
+    ],
+  },
+  {
+    id: 3,
     name: "Services",
     href: "/services",
   },
   {
-    id: 3,
+    id: 4,
     name: "About Us",
     href: "/about"
     
   },
   {
-    id: 4,
+    id: 5,
     name: "Contact",
     href: "/contact",
     // subNavItems: [
