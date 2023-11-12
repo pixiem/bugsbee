@@ -65,7 +65,7 @@ const HomePromotion = ({promoImg, promo_space}) => {
                                             Make Your School Next Level Standard
                                         </span>
                                     }
-                                    <p> Embark on a journey of educational brilliance through our uniquely designed school website—a digital masterpiece that brilliantly encapsulates the core of our academic excellence. Tailored for parents seeking an immersive insight into their child's educational journey, our eye-catching website goes beyond the ordinary, delivering an extraordinary online experience.
+                                    <p> Embark on a journey of educational brilliance through our uniquely designed school website—a digital masterpiece that brilliantly encapsulates the core of our academic excellence. Tailored for parents seeking an immersive insight into their childs educational journey, our eye-catching website goes beyond the ordinary, delivering an extraordinary online experience.
                                     </p>
                                 </div>
                                 {!promo_space && <div className="bd-promotion-counter-wrapper mb-40">
