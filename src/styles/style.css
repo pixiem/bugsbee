@@ -2767,6 +2767,7 @@ img.lazy-image.loaded {
 .banner-three .banner-carousel .tns-slide-active .content-box h1 {
   -webkit-transition-delay: 700ms;
   transition-delay: 700ms;
+  font-size: 80px !important;
 }
 .banner-three .banner-carousel .tns-slide-active .content-box h2 {
   -webkit-transition-delay: 700ms;

@@ -27,18 +27,20 @@ const academy = () => {
     <meta property="og:url" content="https://www.bugsbee-it.com/services" />
  
   </Head>
+    <div style={{ width:"100%" }}>
     <Layout pageTitle="Academy">
    
-      <HeaderOne />
-      <MobileMenu />
-      <SearchPopup />
-      <PageBanner title="Products" />
-      <HomePromotion promo_space="pt-120 pb-60" promoImg={promoImgTwo} />
-      <HomeThreeFeature wave={true} />
-      <AboutPromotion />
-      <AboutFact />
-      <MainFooter />
-    </Layout>
+   <HeaderOne />
+   <MobileMenu />
+   <SearchPopup />
+   <PageBanner title="School Management" />
+   <HomePromotion promo_space="pt-120 pb-60" promoImg={promoImgTwo} />
+   <HomeThreeFeature wave={true} />
+   <AboutPromotion />
+   <AboutFact />
+   <MainFooter />
+ </Layout>
+    </div>
     </>);
 };
 
