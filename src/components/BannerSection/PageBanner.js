@@ -23,7 +23,7 @@ const PageBanner = ({
       <div className="banner-inner">
         <div className="auto-container">
           <div className="inner-container clearfix">
-            {router.pathname != "/blog" && <h1>{title}</h1>}
+            {router.pathname != "/blog" && <h1 style={{color:"white !important"}}>{title}</h1>}
             {router.pathname != "/blog" && <div className="page-nav">
               <ul className="bread-crumb clearfix">
                 <li>

@@ -58,7 +58,7 @@ const HomePromotion = ({promoImg, promo_space}) => {
                         <div className="col-xl-6 col-lg-6">
                             <div className="bd-promotion mb-60 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
                                 <div className="bd-section-title-wrapper mb-35">
-                                    <h2 className="bd-section-title mb-10">Best for Your Kids</h2>
+                                    {/* <h2 style={{color:"black !important"}} className="bd-section-title mb-10">Academic Portfolio Website</h2> */}
                                     {promo_space &&
                                         <span>
                                             Some states and countries implement mandatory early childhood education

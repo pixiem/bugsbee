@@ -36,17 +36,13 @@ const features = [
 const HomeThreeFeature = ({wave}) => {
     return (
         <div className="bd-feature-area p-relative theme-bg pt-120 pb-120">
-            {wave &&
-                <div className="bd-feature-bottom-shape">
-                    <Image src={shape} style={{ width: "100%", height: "100%" }} alt="img not found" />
-                </div>
-            }
+         
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-8 col-md-10">
                         <div className="bd-section-title-wrapper is-white text-center mb-55 wow fadeInUp" data-wow-duration="1s"
                             data-wow-delay=".3s">
-                            <h2 className="bd-section-title mb-0">Why Kindedo Best</h2>
+                            <h2 className="bd-section-title mb-0">Why take it?</h2>
                             <p>View classes by age, program, or subject. Check out upcoming camps<br /> and special events too!
                             </p>
                         </div>

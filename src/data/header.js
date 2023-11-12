@@ -124,15 +124,15 @@ const navItems = [
     name: "Home",
     href: "/",
   },
-  // {
-  //   id: 2,
-  //   name: "Products",
-  //   href: "",
-  //   subNavItems: [
-  //     { id: 1, name: "Academy Management System", href: "/academy",isNew: true  },
-  //     { id: 2, name: "Turf Management System", href: "/turf", },
-  //   ],
-  // },
+  {
+    id: 2,
+    name: "Products",
+    href: "",
+    subNavItems: [
+      { id: 1, name: "Academy Management System", href: "/academy",isNew: true  },
+      // { id: 2, name: "Turf Management System", href: "/turf", },
+    ],
+  },
   {
     id: 3,
     name: "Services",

@@ -11,6 +11,7 @@
             br {
                 @media #{$lg,$md,$sm,$xs} {
                     display: none;
+                    color:"black !important"
                 }
             }
         }
