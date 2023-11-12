@@ -30,7 +30,7 @@ export const aboutSectionOne = {
 
 export const aboutSectionTwo = {
   image: image3,
-  title: "We are standout\nexperts in business",
+  title: "Bugs Bee standout\nexperts in business",
   text: "Skill is something that can never be reasoned with, especially in these modern days where engineers are just ruling the planet with their expertise. And not to brag but, assuring quality is the key-tool that is making our business so much successful. So, our company never compromises with these two. We have strict policies for our employees and also to maintain the quality of our products.",
   counters: [
     { id: 1, percent: 95, title: "Quality\nServices" },

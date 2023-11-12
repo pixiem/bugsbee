@@ -50,7 +50,7 @@ const Home = () => {
             <div className="contact-two__content">
               <div className="sec-title">
                 <h2>
-                Transform your business with our digital solutions today! <span className="dot">.</span>
+                Transform your business with Team Bugs Bee digital solutions today! <span className="dot">.</span>
                 </h2>
               </div>
               {/* <p className="contact-two__text">adswd</p> */}

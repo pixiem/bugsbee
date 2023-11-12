@@ -32,7 +32,7 @@ export const weWorkSection = {
       id: "tab-2",
       image: "featured-image-14-2.jpg",
       text1:
-        "Once the plan is in place, it's time to execute. We take a customer-centric approach to execution, which means:",
+        "Once the plan is in place, it's time to execute. Bugs Bee Team take a customer-centric approach to execution, which means:",
 
       lists: [
         "Building the solution: We implement the solution that was defined in the project plan, while keeping you informed and involved every step of the way.",
@@ -44,7 +44,7 @@ export const weWorkSection = {
       id: "tab-3",
       image: "featured-image-14-3.jpg",
       text1:
-        "The final step in the workflow process is delivery. We take a customer-centric approach to delivery, which means:",
+        "The final step in the workflow process is delivery. Bugs Bee Team take a customer-centric approach to delivery, which means:",
       // text2:
       //   "You can ask yourself these after taking the product:",
       lists: [

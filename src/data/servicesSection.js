@@ -219,7 +219,7 @@ export const serviceSectionThreeadv = [
 ];
 
 export const servicesSectionOne = {
-  title: "OUR CORE SERVICES",
+  title: "BUGS BEE's CORE SERVICES",
   text: "We Shape the Perfect Solutions.", // & are committed to providing our clients with exceptional services while offering our employees the best training.
   services: serviceSectionThree,
   advance: serviceSectionThreeadv
