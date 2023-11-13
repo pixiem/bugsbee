@@ -5,29 +5,29 @@ import shape from "../../assets/wave-section-break.png";
 const features = [
     {
         id: 1,
-        title: 'Exclusive',
-        teaser: 'When it comes to success in the classroom.',
+        title: 'Unique',
+        teaser: 'To differentiate yourself from the crowd of thousands of schools.',
         iconStyle: 'icon-1',
         icon: 'flaticon-exclusive',
     },
     {
         id: 2,
-        title: 'Highest Safety',
-        teaser: 'Safety matters just as much as the academics.',
+        title: 'Automate',
+        teaser: 'Stay ahead by automating tasks such as publishing results, buying books, school routines and more.',
         iconStyle: 'icon-2',
         icon: 'flaticon-humanitarian-help',
     },
     {
         id: 3,
-        title: 'Hassle Free',
-        teaser: 'Consistent with Friend ship’s focus on kindedo.',
+        title: 'Satisfaction',
+        teaser: 'Our user-friendly platform keeps parents informed, while school owners enjoy enhanced efficiency. A win-win for all stakeholders.        ',
         iconStyle: 'icon-3',
         icon: 'flaticon-like-1',
     },
     {
         id: 4,
-        title: 'Free Shipping',
-        teaser: 'Guided by teachers who are veste student success.',
+        title: 'Our Support Team',
+        teaser: "Our support team is committed to providing timely and personalized assistance, ensuring a smooth experience for parents and school administrators alike.",
         iconStyle: 'icon-4',
         icon: 'flaticon-delivery',
     }
@@ -58,6 +58,7 @@ const HomeThreeFeature = ({wave}) => {
                                             <div className="bd-feature-content">
                                                 <div className={`bd-feature-icon ${item.iconStyle}`}>
                                                     <i className={item.icon}></i>
+                                                    {console.log(item.icon)}
                                                 </div>
                                                 <h4 className="bd-feature-title">{item.title}</h4>
                                                 <p>{item.teaser}</p>

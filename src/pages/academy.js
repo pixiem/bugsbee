@@ -22,11 +22,11 @@ import HomeNewsletter from "@/components/newsletter/home-newsletter";
 const academy = () => {
   return (<>
     <Head>
-    <title>Our Services | Bugs Bee</title>
+    <title>School Management System | Bugs Bee</title>
     <meta name="description" content="Explore the comprehensive range of services offered by our digital agency. From web design and development to digital marketing, SEO, and more - we have the expertise to help your business thrive online." />
-    <meta property="og:title" content="Our Services | Your Digital Agency" />
+    <meta property="og:title" content="School Management System | Bugs Bee" />
     <meta property="og:description" content="Explore the comprehensive range of services offered by our digital agency. From web design and development to digital marketing, SEO, and more - we have the expertise to help your business thrive online." />
-    <meta property="og:url" content="https://www.bugsbee-it.com/services" />
+    <meta property="og:url" content="https://www.bugsbeeit.com/academy" />
  
   </Head>
     <div style={{ width:"100%" }}>
