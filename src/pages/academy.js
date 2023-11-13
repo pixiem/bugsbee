@@ -18,6 +18,7 @@ import AboutFact from "@/components/facts/about-fact";
 import AboutPromotion from "@/components/promotions/about-promotion";
 import UnderConstruction from "./under-construction";
 import HomeNewsletter from "@/components/newsletter/home-newsletter";
+import PricingOne from "@/components/PricingSection/PricingOne";
 
 const academy = () => {
   return (<>
@@ -38,6 +39,7 @@ const academy = () => {
    <PageBanner title="School Management" />
    <HomePromotion promo_space="pt-120 pb-60" promoImg={promoImgTwo} />
    <HomeThreeFeature wave={true} />
+   <PricingOne/>
    {/* <HomeNewsletter/> */}
    {/* <br/>
    <br/>
