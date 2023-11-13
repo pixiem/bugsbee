@@ -2,12 +2,20 @@ import { pricingOne } from "@/data/pricingSection";
 import Link from "next/link";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import TextSplit from "../Reuseable/TextSplit";
 
 const { allFeatures, pricing } = pricingOne;
 
 const PricingOne = () => {
   return (
     <section className="pricing-one">
+
+<div className="sec-title centered">
+            <h2>
+              <TextSplit text="Our Pricing" />
+            </h2>
+          </div>
+
       <div className="auto-container">
         <Row>
           <Col sm={12} md={12} lg={4}>
